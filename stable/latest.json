@@ -2,71 +2,71 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHOENIX-20260718-0Q2-E2E-001",
-    "published_at_utc":  "2026-07-19T04:27:28.5645772Z",
-    "release_sequence":  7,
+    "build_id":  "PHOENIX-20260719-0Q2-FIX10-001",
+    "published_at_utc":  "2026-07-19T11:01:04.5595012Z",
+    "release_sequence":  8,
     "required_bootstrap_revision":  4,
     "required_updater_revision":  5,
     "core_version_epoch":  1,
-    "core_version":  "0.1.006",
+    "core_version":  "0.1.007",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.006",
+                           "version":  "0.1.007",
                            "version_epoch":  1,
-                           "release_sequence":  7,
+                           "release_sequence":  8,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.006-phoenix-20260718-0q2-e2e-001/PhoenixCore.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.007-phoenix-20260719-0q2-fix10-001/PhoenixCore.dll",
                            "size":  780800,
-                           "sha256":  "6db0c71d327a834d1deba60c7efcb7ca074d03a4bc44f6804ed517833336c771"
+                           "sha256":  "07e0fd8bbaa18e61dad13f16b7fa78d0d285e7867337dab65bd1fc4ccc7c942c"
                        },
                        {
                            "id":  "web_index",
-                           "version":  "0.1.006",
+                           "version":  "0.1.007",
                            "version_epoch":  1,
-                           "release_sequence":  7,
+                           "release_sequence":  8,
                            "required":  true,
                            "target":  "web/admin/index.html",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.006-phoenix-20260718-0q2-e2e-001/phoenix-web-index.html",
-                           "size":  26178,
-                           "sha256":  "e66d6b21869fd2622111b104cf9a02238ed9706ea0be04066142f3a6646685f3"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.007-phoenix-20260719-0q2-fix10-001/phoenix-web-index.html",
+                           "size":  25948,
+                           "sha256":  "baaa9593d675a3f7f4fc2e988381880a2a88782598b5861eb37a3ecddb02edb7"
                        },
                        {
                            "id":  "web_app",
-                           "version":  "0.1.006",
+                           "version":  "0.1.007",
                            "version_epoch":  1,
-                           "release_sequence":  7,
+                           "release_sequence":  8,
                            "required":  true,
                            "target":  "web/admin/app.js",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.006-phoenix-20260718-0q2-e2e-001/phoenix-web-app.js",
-                           "size":  34661,
-                           "sha256":  "58b6c44ba7fdc409509e4db680d90c74760401af1422079e6589c7f484db0b9b"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.007-phoenix-20260719-0q2-fix10-001/phoenix-web-app.js",
+                           "size":  35370,
+                           "sha256":  "b1bf9df4dd1a64fcd71d604a069507ba56a7b2f81921bcd7fa51b2395cbc44ff"
                        },
                        {
                            "id":  "web_css",
-                           "version":  "0.1.006",
+                           "version":  "0.1.007",
                            "version_epoch":  1,
-                           "release_sequence":  7,
+                           "release_sequence":  8,
                            "required":  true,
                            "target":  "web/admin/app.css",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.006-phoenix-20260718-0q2-e2e-001/phoenix-web-app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.007-phoenix-20260719-0q2-fix10-001/phoenix-web-app.css",
                            "size":  80502,
                            "sha256":  "5df5fe2f35e6e918d90a6ce49f679dce4795a8d3b9f7ec7801c992bce7f86304"
                        },
                        {
                            "id":  "platform_manifest",
-                           "version":  "0.1.006",
+                           "version":  "0.1.007",
                            "version_epoch":  1,
-                           "release_sequence":  7,
+                           "release_sequence":  8,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.006-phoenix-20260718-0q2-e2e-001/phoenix_manifest.json",
-                           "size":  2124,
-                           "sha256":  "4a9223b85cf36a0192766d23564ebad8cef95f74fc846ba3770ff5796651b97e"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.007-phoenix-20260719-0q2-fix10-001/phoenix_manifest.json",
+                           "size":  2126,
+                           "sha256":  "e373dc30bb08db6510f0f8ee0b110ae556753255d2ea4b06ef90a76f6cfcf846"
                        }
                    ]
 }
