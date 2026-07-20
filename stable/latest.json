@@ -2,71 +2,82 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHOENIX-20260720-0S-UPDATE-BRIDGE-FIX1-001",
-    "published_at_utc":  "2026-07-20T11:54:20.3405249Z",
-    "release_sequence":  12,
+    "build_id":  "PHOENIX-20260720-1A-GAME-CHAT-PATCH1R1-001",
+    "published_at_utc":  "2026-07-20T15:14:22.7594042Z",
+    "release_sequence":  13,
     "required_bootstrap_revision":  5,
     "required_updater_revision":  6,
     "core_version_epoch":  1,
-    "core_version":  "0.1.011",
+    "core_version":  "0.1.012",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.011",
+                           "version":  "0.1.012",
                            "version_epoch":  1,
-                           "release_sequence":  12,
+                           "release_sequence":  13,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.011-phoenix-20260720-0s-update-bridge-fix1-001/PhoenixCore.dll",
-                           "size":  788992,
-                           "sha256":  "5f3cbf2826cc670cc8b2e1fa0ebf4f258f930ce7a6911a426de787d7b84e3915"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/PhoenixCore.dll",
+                           "size":  863744,
+                           "sha256":  "a37d5ae1fdcb0dea21ed732102e8b8a97789e5654aa71afdd20a0847c01ff96b"
+                       },
+                       {
+                           "id":  "phoenix_web_css",
+                           "version":  "0.1.012",
+                           "version_epoch":  1,
+                           "release_sequence":  13,
+                           "required":  true,
+                           "target":  "web/admin/app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/phoenix-web-app.css",
+                           "size":  81465,
+                           "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
                        },
                        {
                            "id":  "base_upgrade",
-                           "version":  "1.0.002",
+                           "version":  "1.0.003",
                            "version_epoch":  1,
-                           "release_sequence":  3,
+                           "release_sequence":  4,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.011-phoenix-20260720-0s-update-bridge-fix1-001/PhoenixBaseUpgrade.dll",
-                           "size":  889344,
-                           "sha256":  "87de0576a3cec25fd301230f1be2e5ed5f9307955eb6437a2e1a538ff784cac3"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/PhoenixBaseUpgrade.dll",
+                           "size":  898560,
+                           "sha256":  "60b0457ae1eb5fe0a3dbc4b2f18790684bcab5ebbf9074b2ccb47a66e0d49c13"
                        },
                        {
                            "id":  "base_upgrade_lua",
-                           "version":  "1.0.002",
+                           "version":  "1.0.003",
                            "version_epoch":  1,
-                           "release_sequence":  3,
+                           "release_sequence":  4,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.011-phoenix-20260720-0s-update-bridge-fix1-001/baseupgrade_payment_runtime.lua",
-                           "size":  31695,
-                           "sha256":  "856748ae84af49cc603bfebfe3945710c9a375b1635dad431366dbfa9214c344"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/baseupgrade_payment_runtime.lua",
+                           "size":  29767,
+                           "sha256":  "32e83870306f8937f42522ff39f64878c0351014dc6e5460d9db4dc645b7c97b"
                        },
                        {
                            "id":  "base_upgrade_manifest",
-                           "version":  "1.0.002",
+                           "version":  "1.0.003",
                            "version_epoch":  1,
-                           "release_sequence":  3,
+                           "release_sequence":  4,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.011-phoenix-20260720-0s-update-bridge-fix1-001/baseupgrade_module.json",
-                           "size":  1368,
-                           "sha256":  "c4e61a026f1d6454ba69ff402c37af9f375c4a4e536741bf824bbdc79bc502b6"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/baseupgrade_module.json",
+                           "size":  1379,
+                           "sha256":  "7efcad7ed87061a9df04e18c22f381247306146663e9dde12fefe324cd9fd458"
                        },
                        {
                            "id":  "platform_manifest",
-                           "version":  "0.1.011",
+                           "version":  "0.1.012",
                            "version_epoch":  1,
-                           "release_sequence":  12,
+                           "release_sequence":  13,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.011-phoenix-20260720-0s-update-bridge-fix1-001/phoenix_manifest.json",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260720-1a-game-chat-patch1r1-001/phoenix_manifest.json",
                            "size":  1980,
-                           "sha256":  "2efa10ddff09d39a9d629a21059f4e67878cd0c327569f5b8660d1b4d2d0a5df"
+                           "sha256":  "039ce30f99f6b642cdb0d2fee9d9267f8e2c2694c4ae0e726487726fbe80fc53"
                        }
                    ]
 }
