@@ -1,0 +1,63 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260720-0R-SECURITY-001",
+    "tag":  "phoenix-0.1.008-phoenix-20260720-0r-security-001",
+    "core_version":  "0.1.008",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.008",
+                       "version_epoch":  1,
+                       "release_sequence":  9,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/PhoenixCore.dll",
+                       "size":  788992,
+                       "sha256":  "17688d8db43beb0ae1cf132202e98fb300fa7861c188a538528682f6b4e9b836"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.001",
+                       "version_epoch":  1,
+                       "release_sequence":  2,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/PhoenixBaseUpgrade.dll",
+                       "size":  889344,
+                       "sha256":  "a90429f60d2bcc7a5eed5d8a47d1d1d73e95f0fb27151d7bc36b89ca2db0c85e"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.001",
+                       "version_epoch":  1,
+                       "release_sequence":  2,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/baseupgrade_payment_runtime.lua",
+                       "size":  31827,
+                       "sha256":  "571c4367b7bab844d5b3089014899fe5c27b7e7f6d636365bb08d87466c5975c"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.001",
+                       "version_epoch":  1,
+                       "release_sequence":  2,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/baseupgrade_module.json",
+                       "size":  1369,
+                       "sha256":  "a2bbd08186bd8a6453e2b45385355f4ce4a85cee223274d698bf85c0ed6e6db5"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.008",
+                       "version_epoch":  1,
+                       "release_sequence":  9,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/phoenix_manifest.json",
+                       "size":  1969,
+                       "sha256":  "222903951fb308256e4ea883f77f2b42fde270dbf769f72715919421f081c746"
+                   }
+               ]
+}
