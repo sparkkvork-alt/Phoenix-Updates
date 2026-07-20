@@ -2,71 +2,71 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHOENIX-20260720-0R-SECURITY-001",
-    "published_at_utc":  "2026-07-20T04:56:32.4636850Z",
-    "release_sequence":  9,
+    "build_id":  "PHOENIX-20260720-0S-CLEANUP-001",
+    "published_at_utc":  "2026-07-20T09:09:55.8532148Z",
+    "release_sequence":  10,
     "required_bootstrap_revision":  5,
     "required_updater_revision":  6,
     "core_version_epoch":  1,
-    "core_version":  "0.1.008",
+    "core_version":  "0.1.009",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.008",
+                           "version":  "0.1.009",
                            "version_epoch":  1,
-                           "release_sequence":  9,
+                           "release_sequence":  10,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/PhoenixCore.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.009-phoenix-20260720-0s-cleanup-001/PhoenixCore.dll",
                            "size":  788992,
-                           "sha256":  "17688d8db43beb0ae1cf132202e98fb300fa7861c188a538528682f6b4e9b836"
+                           "sha256":  "0849bbb4e6645ed5099c457db02ee55a64b3dddd6d11ffa13d7bc46eefd22139"
                        },
                        {
                            "id":  "base_upgrade",
-                           "version":  "1.0.001",
+                           "version":  "1.0.002",
                            "version_epoch":  1,
-                           "release_sequence":  2,
+                           "release_sequence":  3,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/PhoenixBaseUpgrade.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.009-phoenix-20260720-0s-cleanup-001/PhoenixBaseUpgrade.dll",
                            "size":  889344,
-                           "sha256":  "a90429f60d2bcc7a5eed5d8a47d1d1d73e95f0fb27151d7bc36b89ca2db0c85e"
+                           "sha256":  "87de0576a3cec25fd301230f1be2e5ed5f9307955eb6437a2e1a538ff784cac3"
                        },
                        {
                            "id":  "base_upgrade_lua",
-                           "version":  "1.0.001",
+                           "version":  "1.0.002",
                            "version_epoch":  1,
-                           "release_sequence":  2,
+                           "release_sequence":  3,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/baseupgrade_payment_runtime.lua",
-                           "size":  31827,
-                           "sha256":  "571c4367b7bab844d5b3089014899fe5c27b7e7f6d636365bb08d87466c5975c"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.009-phoenix-20260720-0s-cleanup-001/baseupgrade_payment_runtime.lua",
+                           "size":  31695,
+                           "sha256":  "856748ae84af49cc603bfebfe3945710c9a375b1635dad431366dbfa9214c344"
                        },
                        {
                            "id":  "base_upgrade_manifest",
-                           "version":  "1.0.001",
+                           "version":  "1.0.002",
                            "version_epoch":  1,
-                           "release_sequence":  2,
+                           "release_sequence":  3,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/baseupgrade_module.json",
-                           "size":  1369,
-                           "sha256":  "a2bbd08186bd8a6453e2b45385355f4ce4a85cee223274d698bf85c0ed6e6db5"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.009-phoenix-20260720-0s-cleanup-001/baseupgrade_module.json",
+                           "size":  1368,
+                           "sha256":  "c4e61a026f1d6454ba69ff402c37af9f375c4a4e536741bf824bbdc79bc502b6"
                        },
                        {
                            "id":  "platform_manifest",
-                           "version":  "0.1.008",
+                           "version":  "0.1.009",
                            "version_epoch":  1,
-                           "release_sequence":  9,
+                           "release_sequence":  10,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.008-phoenix-20260720-0r-security-001/phoenix_manifest.json",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.009-phoenix-20260720-0s-cleanup-001/phoenix_manifest.json",
                            "size":  1969,
-                           "sha256":  "222903951fb308256e4ea883f77f2b42fde270dbf769f72715919421f081c746"
+                           "sha256":  "ea184c024328f91082b255918ccb539e7388fb4520367d66c1979ab47561c170"
                        }
                    ]
 }
