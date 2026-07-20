@@ -1,0 +1,63 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260720-0S-CLEANUP-FIX1-001",
+    "tag":  "phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001",
+    "core_version":  "0.1.010",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.010",
+                       "version_epoch":  1,
+                       "release_sequence":  11,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001/PhoenixCore.dll",
+                       "size":  788480,
+                       "sha256":  "6ca1b36985484e58f02313b7529257c604258373aedcbf7accaf44776d1e460f"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.002",
+                       "version_epoch":  1,
+                       "release_sequence":  3,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001/PhoenixBaseUpgrade.dll",
+                       "size":  889344,
+                       "sha256":  "87de0576a3cec25fd301230f1be2e5ed5f9307955eb6437a2e1a538ff784cac3"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.002",
+                       "version_epoch":  1,
+                       "release_sequence":  3,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001/baseupgrade_payment_runtime.lua",
+                       "size":  31695,
+                       "sha256":  "856748ae84af49cc603bfebfe3945710c9a375b1635dad431366dbfa9214c344"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.002",
+                       "version_epoch":  1,
+                       "release_sequence":  3,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001/baseupgrade_module.json",
+                       "size":  1368,
+                       "sha256":  "c4e61a026f1d6454ba69ff402c37af9f375c4a4e536741bf824bbdc79bc502b6"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.010",
+                       "version_epoch":  1,
+                       "release_sequence":  11,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.010-phoenix-20260720-0s-cleanup-fix1-001/phoenix_manifest.json",
+                       "size":  1974,
+                       "sha256":  "38a1cadd65197a208ceb209b3f910ef84c593c9d68d6514056e085eb545bb31f"
+                   }
+               ]
+}
