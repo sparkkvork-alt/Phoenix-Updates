@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260721-1A-AUTH-CHAT-FIX1-001",
+    "tag":  "phoenix-0.1.013-r17-auth-chat-fix1",
+    "core_version":  "0.1.013",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.013",
+                       "version_epoch":  1,
+                       "release_sequence":  17,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/PhoenixCore.dll",
+                       "size":  863744,
+                       "sha256":  "fdc5e05e95172014e5531b83178f2dd3fb179f46cf0823211899e260c47463ed"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.013",
+                       "version_epoch":  1,
+                       "release_sequence":  17,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.007",
+                       "version_epoch":  1,
+                       "release_sequence":  8,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/PhoenixBaseUpgrade.dll",
+                       "size":  928768,
+                       "sha256":  "826e18ebc4753e6c92a356b88ce7beb7d42dc856f4382406cb82337d511f2f07"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.007",
+                       "version_epoch":  1,
+                       "release_sequence":  8,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/baseupgrade_payment_runtime.lua",
+                       "size":  31677,
+                       "sha256":  "61e7eee4a89b33a41911ced04135ec34a5be7bebaa3ad1f80f8c6def5d397db9"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.007",
+                       "version_epoch":  1,
+                       "release_sequence":  8,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/baseupgrade_module.json",
+                       "size":  1382,
+                       "sha256":  "cfc38eb705d1f24bb74ca7c9006396256fd9d7acc140e5b539d799cfb07fa67b"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.013",
+                       "version_epoch":  1,
+                       "release_sequence":  17,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.013-r17-auth-chat-fix1/phoenix_manifest.json",
+                       "size":  1976,
+                       "sha256":  "fb2a31ae47174c10ffab1ec5040ca391cf42057be76d20c39690dc2c0e77ccc9"
+                   }
+               ]
+}
