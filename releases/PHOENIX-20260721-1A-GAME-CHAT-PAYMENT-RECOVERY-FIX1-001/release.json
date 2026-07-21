@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260721-1A-GAME-CHAT-PAYMENT-RECOVERY-FIX1-001",
+    "tag":  "phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001",
+    "core_version":  "0.1.012",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.012",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/PhoenixCore.dll",
+                       "size":  863744,
+                       "sha256":  "0237731aa287c4ca0510d72dfea5124b90b494096b25b3855565dc20979808d8"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.012",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.004",
+                       "version_epoch":  1,
+                       "release_sequence":  5,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/PhoenixBaseUpgrade.dll",
+                       "size":  898560,
+                       "sha256":  "9f709d7d9a4a576a2405ab6b9e962bea6e4897d29d2931d22b8cef983fa20ffb"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.004",
+                       "version_epoch":  1,
+                       "release_sequence":  5,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/baseupgrade_payment_runtime.lua",
+                       "size":  29767,
+                       "sha256":  "32e83870306f8937f42522ff39f64878c0351014dc6e5460d9db4dc645b7c97b"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.004",
+                       "version_epoch":  1,
+                       "release_sequence":  5,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/baseupgrade_module.json",
+                       "size":  1406,
+                       "sha256":  "f1f3b9d29578413ab487814559c060be6ac0f664c9f6166593184e0ff00250ca"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.012",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-game-chat-payment-recovery-fix1-001/phoenix_manifest.json",
+                       "size":  1993,
+                       "sha256":  "4d91335e8d5e06c5d34d850e049be57474058691a4535df0f306997bb4e3ab4c"
+                   }
+               ]
+}
