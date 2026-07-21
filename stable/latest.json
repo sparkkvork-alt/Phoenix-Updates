@@ -2,9 +2,9 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHOENIX-20260721-1A-UPGRADE-RECOVERY-FIX1-001",
-    "published_at_utc":  "2026-07-21T09:42:09.4385624Z",
-    "release_sequence":  15,
+    "build_id":  "PHOENIX-20260721-1A-BU-MAPI-R1-001",
+    "published_at_utc":  "2026-07-21T12:29:37.2495824Z",
+    "release_sequence":  16,
     "required_bootstrap_revision":  6,
     "required_updater_revision":  7,
     "core_version_epoch":  1,
@@ -17,67 +17,67 @@
                            "id":  "phoenix_core",
                            "version":  "0.1.012",
                            "version_epoch":  1,
-                           "release_sequence":  15,
+                           "release_sequence":  16,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/PhoenixCore.dll",
-                           "size":  863744,
-                           "sha256":  "ab1166ac18a301c88724cecde422a32256fb9471c8906d01f328546aa668d9e3"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/PhoenixCore.dll",
+                           "size":  863232,
+                           "sha256":  "b4354915ecef31d74c849a34a9cfa1248b4bb3c008ff663941461e3415976bef"
                        },
                        {
                            "id":  "phoenix_web_css",
                            "version":  "0.1.012",
                            "version_epoch":  1,
-                           "release_sequence":  15,
+                           "release_sequence":  16,
                            "required":  true,
                            "target":  "web/admin/app.css",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/phoenix-web-app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/phoenix-web-app.css",
                            "size":  81465,
                            "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
                        },
                        {
                            "id":  "base_upgrade",
-                           "version":  "1.0.005",
+                           "version":  "1.0.006",
                            "version_epoch":  1,
-                           "release_sequence":  6,
+                           "release_sequence":  7,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/PhoenixBaseUpgrade.dll",
-                           "size":  785408,
-                           "sha256":  "98b5ff7d00313a22fdf1cb0f34b7a0749c8b24295de5c5ddc060a6bc3cea9218"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/PhoenixBaseUpgrade.dll",
+                           "size":  882176,
+                           "sha256":  "77f65224de6b5f2c2e1cef2d65dcf1937edfaa37cf483cfa93a55d01592f7f56"
                        },
                        {
                            "id":  "base_upgrade_lua",
-                           "version":  "1.0.005",
+                           "version":  "1.0.006",
                            "version_epoch":  1,
-                           "release_sequence":  6,
+                           "release_sequence":  7,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/baseupgrade_payment_runtime.lua",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/baseupgrade_payment_runtime.lua",
                            "size":  29767,
                            "sha256":  "32e83870306f8937f42522ff39f64878c0351014dc6e5460d9db4dc645b7c97b"
                        },
                        {
                            "id":  "base_upgrade_manifest",
-                           "version":  "1.0.005",
+                           "version":  "1.0.006",
                            "version_epoch":  1,
-                           "release_sequence":  6,
+                           "release_sequence":  7,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/baseupgrade_module.json",
-                           "size":  1337,
-                           "sha256":  "25b9b744392148bff980338c3550b2c05a43457f818761a398c97fd4e5db0e65"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/baseupgrade_module.json",
+                           "size":  1379,
+                           "sha256":  "c0e7fc5cc82f745015869b18f6a0347e2b2eae647f7248edbf455d1a7acf7668"
                        },
                        {
                            "id":  "platform_manifest",
                            "version":  "0.1.012",
                            "version_epoch":  1,
-                           "release_sequence":  15,
+                           "release_sequence":  16,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-phoenix-20260721-1a-upgrade-recovery-fix1-001/phoenix_manifest.json",
-                           "size":  1983,
-                           "sha256":  "3caac8e1b7ec718f0ca82c9c4b7f40d13378b64a4905e10125bc2d43f36998ec"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.012-r16-bu-mapi-r1/phoenix_manifest.json",
+                           "size":  1972,
+                           "sha256":  "974bc8a39511b9ce1a46e18266af82d00b61a29c495f06e2851404307632934e"
                        }
                    ]
 }
