@@ -2,82 +2,82 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHX-20260722-1A-EMR-001",
-    "published_at_utc":  "2026-07-22T09:10:19.0852563Z",
-    "release_sequence":  21,
+    "build_id":  "PHX-20260722-1A-CHAT-001",
+    "published_at_utc":  "2026-07-22T11:24:48.2193390Z",
+    "release_sequence":  22,
     "required_bootstrap_revision":  6,
     "required_updater_revision":  7,
     "core_version_epoch":  1,
-    "core_version":  "0.1.017",
+    "core_version":  "0.1.018",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.017",
+                           "version":  "0.1.018",
                            "version_epoch":  1,
-                           "release_sequence":  21,
+                           "release_sequence":  22,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/PhoenixCore.dll",
-                           "size":  863744,
-                           "sha256":  "08136b4b3340d4e5befc451a07cd5738968e7c132f0b2c56ede344d3fa25e1a3"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/PhoenixCore.dll",
+                           "size":  863232,
+                           "sha256":  "422c6deec77dcae2e758c64ad275ed3e5e08c5036858ee84b0b466ad44c030fb"
                        },
                        {
                            "id":  "phoenix_web_css",
-                           "version":  "0.1.017",
+                           "version":  "0.1.018",
                            "version_epoch":  1,
-                           "release_sequence":  21,
+                           "release_sequence":  22,
                            "required":  true,
                            "target":  "web/admin/app.css",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/phoenix-web-app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/phoenix-web-app.css",
                            "size":  81465,
                            "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
                        },
                        {
                            "id":  "base_upgrade",
-                           "version":  "1.0.011",
+                           "version":  "1.0.012",
                            "version_epoch":  1,
-                           "release_sequence":  12,
+                           "release_sequence":  13,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/PhoenixBaseUpgrade.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/PhoenixBaseUpgrade.dll",
                            "size":  914944,
-                           "sha256":  "411c78fb9746c1390ab668bd05c2262efaa5ab487d79d99d0917e15b0c67a0c3"
+                           "sha256":  "aec0096e96aa7fa7d585452c032b21c9f941ebb15efc3e7c39b7452fc14d7bd9"
                        },
                        {
                            "id":  "base_upgrade_lua",
-                           "version":  "1.0.011",
+                           "version":  "1.0.012",
                            "version_epoch":  1,
-                           "release_sequence":  12,
+                           "release_sequence":  13,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/baseupgrade_payment_runtime.lua",
-                           "size":  31677,
-                           "sha256":  "61e7eee4a89b33a41911ced04135ec34a5be7bebaa3ad1f80f8c6def5d397db9"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/baseupgrade_payment_runtime.lua",
+                           "size":  32276,
+                           "sha256":  "6e51a3b75e1c5db0dfa8f578dd130401aa56179046a2d931ab327ee26d3427b9"
                        },
                        {
                            "id":  "base_upgrade_manifest",
-                           "version":  "1.0.011",
+                           "version":  "1.0.012",
                            "version_epoch":  1,
-                           "release_sequence":  12,
+                           "release_sequence":  13,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/baseupgrade_module.json",
-                           "size":  1410,
-                           "sha256":  "8cf2f29412913cd42d1a7a8b8edf4fefa3bd9df73fd0ef638bf257632242244f"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/baseupgrade_module.json",
+                           "size":  1441,
+                           "sha256":  "0dde8ca9cd7981d67bf02f2b0d33d97ddc66597df7dd7d9284d81a1908f4ef37"
                        },
                        {
                            "id":  "platform_manifest",
-                           "version":  "0.1.017",
+                           "version":  "0.1.018",
                            "version_epoch":  1,
-                           "release_sequence":  21,
+                           "release_sequence":  22,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/phoenix_manifest.json",
-                           "size":  1962,
-                           "sha256":  "8e16d466a4a53bea6fd06c067b069758a27ce5ec7b1b1b85596b2b088e4378d3"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.018-r22-chat1/phoenix_manifest.json",
+                           "size":  1963,
+                           "sha256":  "4f840fbba93127e7060c0a7fe0ca786581d5c3956e15527c6825df4d10103557"
                        }
                    ]
 }
