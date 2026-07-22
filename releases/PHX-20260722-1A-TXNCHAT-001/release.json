@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260722-1A-TXNCHAT-001",
+    "tag":  "phx-0.1.019-r23-txnchat1",
+    "core_version":  "0.1.019",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.019",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/PhoenixCore.dll",
+                       "size":  863744,
+                       "sha256":  "eba3999e2fdbe0283df7fb67c914542b9e1a8339c99f46c1591bc427c644ac7c"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.019",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.013",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/PhoenixBaseUpgrade.dll",
+                       "size":  928256,
+                       "sha256":  "529d3accd36c17bbe4bc487d8d4afbfb6da8d43d5e019e6ac8fb7c1f471c4f57"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.013",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.013",
+                       "version_epoch":  1,
+                       "release_sequence":  14,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/baseupgrade_module.json",
+                       "size":  1463,
+                       "sha256":  "773a08bdd410de9b12487796b888efb750e83900d5ecaa5b1a2b9590f88ef0e6"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.019",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.019-r23-txnchat1/phoenix_manifest.json",
+                       "size":  1966,
+                       "sha256":  "8322747d9da07e8226187f0b4b259f54de434b3e5daa0d0cce3b2b80155521cf"
+                   }
+               ]
+}
