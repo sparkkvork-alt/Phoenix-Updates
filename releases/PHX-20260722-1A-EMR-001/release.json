@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260722-1A-EMR-001",
+    "tag":  "phx-0.1.017-r21-emr1",
+    "core_version":  "0.1.017",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.017",
+                       "version_epoch":  1,
+                       "release_sequence":  21,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/PhoenixCore.dll",
+                       "size":  863744,
+                       "sha256":  "08136b4b3340d4e5befc451a07cd5738968e7c132f0b2c56ede344d3fa25e1a3"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.017",
+                       "version_epoch":  1,
+                       "release_sequence":  21,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.011",
+                       "version_epoch":  1,
+                       "release_sequence":  12,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/PhoenixBaseUpgrade.dll",
+                       "size":  914944,
+                       "sha256":  "411c78fb9746c1390ab668bd05c2262efaa5ab487d79d99d0917e15b0c67a0c3"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.011",
+                       "version_epoch":  1,
+                       "release_sequence":  12,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/baseupgrade_payment_runtime.lua",
+                       "size":  31677,
+                       "sha256":  "61e7eee4a89b33a41911ced04135ec34a5be7bebaa3ad1f80f8c6def5d397db9"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.011",
+                       "version_epoch":  1,
+                       "release_sequence":  12,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/baseupgrade_module.json",
+                       "size":  1410,
+                       "sha256":  "8cf2f29412913cd42d1a7a8b8edf4fefa3bd9df73fd0ef638bf257632242244f"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.017",
+                       "version_epoch":  1,
+                       "release_sequence":  21,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.017-r21-emr1/phoenix_manifest.json",
+                       "size":  1962,
+                       "sha256":  "8e16d466a4a53bea6fd06c067b069758a27ce5ec7b1b1b85596b2b088e4378d3"
+                   }
+               ]
+}
