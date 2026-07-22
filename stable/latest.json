@@ -2,82 +2,82 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHOENIX-20260722-1A-PAYREC-READY-FIX1-001",
-    "published_at_utc":  "2026-07-22T04:46:19.8698521Z",
-    "release_sequence":  19,
+    "build_id":  "PHX-20260722-1A-RST-001",
+    "published_at_utc":  "2026-07-22T06:03:39.1749631Z",
+    "release_sequence":  20,
     "required_bootstrap_revision":  6,
     "required_updater_revision":  7,
     "core_version_epoch":  1,
-    "core_version":  "0.1.015",
+    "core_version":  "0.1.016",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.015",
+                           "version":  "0.1.016",
                            "version_epoch":  1,
-                           "release_sequence":  19,
+                           "release_sequence":  20,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/PhoenixCore.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/PhoenixCore.dll",
                            "size":  863744,
-                           "sha256":  "022d237655608d9aa9dd1ed68c1266489a56653a0d10379e8cdfe7fd4bf8eefc"
+                           "sha256":  "01085bdea218c4398aaf11c09b76351374a1ee6dbcf685c7ff3fcc1cac034980"
                        },
                        {
                            "id":  "phoenix_web_css",
-                           "version":  "0.1.015",
+                           "version":  "0.1.016",
                            "version_epoch":  1,
-                           "release_sequence":  19,
+                           "release_sequence":  20,
                            "required":  true,
                            "target":  "web/admin/app.css",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/phoenix-web-app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/phoenix-web-app.css",
                            "size":  81465,
                            "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
                        },
                        {
                            "id":  "base_upgrade",
-                           "version":  "1.0.009",
+                           "version":  "1.0.010",
                            "version_epoch":  1,
-                           "release_sequence":  10,
+                           "release_sequence":  11,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/PhoenixBaseUpgrade.dll",
-                           "size":  1005568,
-                           "sha256":  "e2657d10b8a8258c54e61912e6182db9645972f9802aa94b1a77dc07015da7d8"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/PhoenixBaseUpgrade.dll",
+                           "size":  923648,
+                           "sha256":  "36a900425abff56caf7b6408d2a12db6dfd2cdbb04d3d02d6fbf6f1e41b45caa"
                        },
                        {
                            "id":  "base_upgrade_lua",
-                           "version":  "1.0.009",
+                           "version":  "1.0.010",
                            "version_epoch":  1,
-                           "release_sequence":  10,
+                           "release_sequence":  11,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/baseupgrade_payment_runtime.lua",
-                           "size":  35737,
-                           "sha256":  "77b6bcda991e14ab04c4682c2da1c35cc60f8c9e9847b335b4bfb3bf98784265"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/baseupgrade_payment_runtime.lua",
+                           "size":  31677,
+                           "sha256":  "61e7eee4a89b33a41911ced04135ec34a5be7bebaa3ad1f80f8c6def5d397db9"
                        },
                        {
                            "id":  "base_upgrade_manifest",
-                           "version":  "1.0.009",
+                           "version":  "1.0.010",
                            "version_epoch":  1,
-                           "release_sequence":  10,
+                           "release_sequence":  11,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/baseupgrade_module.json",
-                           "size":  1440,
-                           "sha256":  "cd591c9b10eafa64b117a9239935af08a5064e048a7503d2ed13ef302dd07a5e"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/baseupgrade_module.json",
+                           "size":  1412,
+                           "sha256":  "2a9ae834574f455b30f1abd8ee76668a0ac76d7df8599e12330951f0f63816e8"
                        },
                        {
                            "id":  "platform_manifest",
-                           "version":  "0.1.015",
+                           "version":  "0.1.016",
                            "version_epoch":  1,
-                           "release_sequence":  19,
+                           "release_sequence":  20,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/phoenix_manifest.json",
-                           "size":  1980,
-                           "sha256":  "23e74d10f74c49198941851751fcb716441811e54d1087bcd8b4912c63538f52"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.016-r20-rst1/phoenix_manifest.json",
+                           "size":  1962,
+                           "sha256":  "f4174d50b312341f14cacf38c9c09d267aec51675a132ac02d35f741818b9063"
                        }
                    ]
 }
