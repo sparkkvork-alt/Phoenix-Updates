@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260721-1A-PAYREC-FIX1-001",
+    "tag":  "phoenix-0.1.014-r18-partial-payment-recovery-fix1",
+    "core_version":  "0.1.014",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.014",
+                       "version_epoch":  1,
+                       "release_sequence":  18,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/PhoenixCore.dll",
+                       "size":  863232,
+                       "sha256":  "1c35a5e216e3d9d438f4d5e90425d04dad3b93cdda2f21aa476d35896208b455"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.014",
+                       "version_epoch":  1,
+                       "release_sequence":  18,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.008",
+                       "version_epoch":  1,
+                       "release_sequence":  9,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/PhoenixBaseUpgrade.dll",
+                       "size":  995840,
+                       "sha256":  "9cffbc476f8e9ea06ed3d66b8a42de1d6e019e9a42b096208335b6ecf4a44407"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.008",
+                       "version_epoch":  1,
+                       "release_sequence":  9,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/baseupgrade_payment_runtime.lua",
+                       "size":  35737,
+                       "sha256":  "77b6bcda991e14ab04c4682c2da1c35cc60f8c9e9847b335b4bfb3bf98784265"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.008",
+                       "version_epoch":  1,
+                       "release_sequence":  9,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/baseupgrade_module.json",
+                       "size":  1436,
+                       "sha256":  "5f99055a05a060d863da55ec56627aed49372fd2f4ee3b9216387e3d9a6392cc"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.014",
+                       "version_epoch":  1,
+                       "release_sequence":  18,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.014-r18-partial-payment-recovery-fix1/phoenix_manifest.json",
+                       "size":  1973,
+                       "sha256":  "00ef7f3cb56f0b06853cc6e7bcef31c96a50f7605af30a84498563d28a3a8db7"
+                   }
+               ]
+}
