@@ -1,0 +1,74 @@
+{
+    "schema":  1,
+    "build_id":  "PHOENIX-20260722-1A-PAYREC-READY-FIX1-001",
+    "tag":  "phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1",
+    "core_version":  "0.1.015",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.015",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/PhoenixCore.dll",
+                       "size":  863744,
+                       "sha256":  "022d237655608d9aa9dd1ed68c1266489a56653a0d10379e8cdfe7fd4bf8eefc"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.015",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/phoenix-web-app.css",
+                       "size":  81465,
+                       "sha256":  "e78761b01d8d174a568ed605b140da702171515d99c0fb2794f9f80d2f8d0f93"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.009",
+                       "version_epoch":  1,
+                       "release_sequence":  10,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/PhoenixBaseUpgrade.dll",
+                       "size":  1005568,
+                       "sha256":  "e2657d10b8a8258c54e61912e6182db9645972f9802aa94b1a77dc07015da7d8"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.009",
+                       "version_epoch":  1,
+                       "release_sequence":  10,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/baseupgrade_payment_runtime.lua",
+                       "size":  35737,
+                       "sha256":  "77b6bcda991e14ab04c4682c2da1c35cc60f8c9e9847b335b4bfb3bf98784265"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.009",
+                       "version_epoch":  1,
+                       "release_sequence":  10,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/baseupgrade_module.json",
+                       "size":  1440,
+                       "sha256":  "cd591c9b10eafa64b117a9239935af08a5064e048a7503d2ed13ef302dd07a5e"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.015",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phoenix-0.1.015-r19-payment-recovery-runtime-ready-fix1/phoenix_manifest.json",
+                       "size":  1980,
+                       "sha256":  "23e74d10f74c49198941851751fcb716441811e54d1087bcd8b4912c63538f52"
+                   }
+               ]
+}
