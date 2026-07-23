@@ -1,0 +1,85 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260723-1A-NATIVE-RELOC-001",
+    "tag":  "phx-0.1.021-r25-native-reloc1",
+    "core_version":  "0.1.021",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.021",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/PhoenixCore.dll",
+                       "size":  866304,
+                       "sha256":  "b6a60028e7504591ac26ac7bec33051e46d7f79b82c7c771f1978d733a915545"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.021",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/phoenix-web-app.css",
+                       "size":  81924,
+                       "sha256":  "ee5765eaf8bc406a716126beffcecac6e1198463cd74eacddeae265b4c4a8c6d"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.021",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/phoenix-web-index.html",
+                       "size":  26784,
+                       "sha256":  "7a8d93f6fa1269c65c351f412f8d6f00767e637e9ff9b2b168b66a38f07ec800"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.015",
+                       "version_epoch":  1,
+                       "release_sequence":  16,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/PhoenixBaseUpgrade.dll",
+                       "size":  982016,
+                       "sha256":  "1c7e698b4c2067d71bc5fba12253a1f62242b83cbfbf54d5473090d3a3f50cd7"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.015",
+                       "version_epoch":  1,
+                       "release_sequence":  16,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.015",
+                       "version_epoch":  1,
+                       "release_sequence":  16,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/baseupgrade_module.json",
+                       "size":  1606,
+                       "sha256":  "3c1bfc8f423e230aca69b75f8a967b55751f66642bbed0f4807583a5ac2affcb"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.021",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.021-r25-native-reloc1/phoenix_manifest.json",
+                       "size":  2131,
+                       "sha256":  "a5011bf428840fe6893ef46e824c73d2129c5fae18f6f72a0449ced84827700a"
+                   }
+               ]
+}
