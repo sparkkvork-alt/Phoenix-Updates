@@ -1,0 +1,85 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260724-1A-CLEANUP-001",
+    "tag":  "phx-0.1.024-r28-stage1a-cleanup",
+    "core_version":  "0.1.024",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.024",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/PhoenixCore.dll",
+                       "size":  866816,
+                       "sha256":  "ce2319ac76b90e7ef5155837efe1b59cef26a8d20aea35bdd9aa9a2aafcc81db"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.024",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/phoenix-web-app.css",
+                       "size":  81924,
+                       "sha256":  "ee5765eaf8bc406a716126beffcecac6e1198463cd74eacddeae265b4c4a8c6d"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.024",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/phoenix-web-index.html",
+                       "size":  26784,
+                       "sha256":  "7a8d93f6fa1269c65c351f412f8d6f00767e637e9ff9b2b168b66a38f07ec800"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.018",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/PhoenixBaseUpgrade.dll",
+                       "size":  986112,
+                       "sha256":  "a38b7f760e6e3a42464224b06b107871921ae38618aa8fc010eee7ead224cbbb"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.018",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.018",
+                       "version_epoch":  1,
+                       "release_sequence":  19,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/baseupgrade_module.json",
+                       "size":  1593,
+                       "sha256":  "0326cf8d497795cb6dfb227295aa8a5b78901868182b2df5bde1b25e74a92b98"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.024",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.024-r28-stage1a-cleanup/phoenix_manifest.json",
+                       "size":  2128,
+                       "sha256":  "ac2224a66fb688603c7ff95b0760025ed96f9dbb5f3be767fc50070e5535749e"
+                   }
+               ]
+}
