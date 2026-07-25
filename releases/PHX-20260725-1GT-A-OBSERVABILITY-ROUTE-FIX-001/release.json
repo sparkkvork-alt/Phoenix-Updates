@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260725-1GT-A-OBSERVABILITY-ROUTE-FIX-001",
+    "tag":  "phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix",
+    "core_version":  "0.1.027",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.027",
+                       "version_epoch":  1,
+                       "release_sequence":  32,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/PhoenixCore.dll",
+                       "size":  869888,
+                       "sha256":  "c357d91eb49f9a2ecd02ba845312e5c53ec3568d8a0897694678afa42e9e6f24"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.027",
+                       "version_epoch":  1,
+                       "release_sequence":  32,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/phoenix-web-app.css",
+                       "size":  83279,
+                       "sha256":  "6b43d3e81f55a880ebce0326d43a0052ee7e02bf101eadc1055fa39838f3bf29"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.027",
+                       "version_epoch":  1,
+                       "release_sequence":  32,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/phoenix-web-app.js",
+                       "size":  38329,
+                       "sha256":  "e849edee1492e9f2e6c0245d524fd4f7e559d8e92291738a981e7d79f3725dc9"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.027",
+                       "version_epoch":  1,
+                       "release_sequence":  32,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/phoenix-web-index.html",
+                       "size":  28719,
+                       "sha256":  "f1c680cab4ded0e9315b4ffd44c5ca1de26dc2d2ecda47f38eada2daa6e28f90"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.021",
+                       "version_epoch":  1,
+                       "release_sequence":  22,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/PhoenixBaseUpgrade.dll",
+                       "size":  1068032,
+                       "sha256":  "22450f38aa354cc169ce5feec1d513e1e2de5c96a0f2e6961826c35cc46212ad"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.021",
+                       "version_epoch":  1,
+                       "release_sequence":  22,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.021",
+                       "version_epoch":  1,
+                       "release_sequence":  22,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/baseupgrade_module.json",
+                       "size":  1611,
+                       "sha256":  "deac54b3ada093ab263931353e6c575af1ab135f102f9d3e62cd55571dcead0a"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.027",
+                       "version_epoch":  1,
+                       "release_sequence":  32,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.027-r32-baseupgrade-1.0.021-stage1gt-a-observability-route-fix/phoenix_manifest.json",
+                       "size":  2147,
+                       "sha256":  "8c8e951ce751506d38950c95e5b0be3b979f87d0f1f10a70945b8f1773b24838"
+                   }
+               ]
+}
