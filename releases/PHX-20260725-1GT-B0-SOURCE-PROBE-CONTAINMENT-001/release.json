@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260725-1GT-B0-SOURCE-PROBE-CONTAINMENT-001",
+    "tag":  "phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment",
+    "core_version":  "0.1.028",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.028",
+                       "version_epoch":  1,
+                       "release_sequence":  33,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/PhoenixCore.dll",
+                       "size":  869888,
+                       "sha256":  "77dd16341bde36194c6c99322f9c6bf062bd166bb606ca74fb1cc1309b95244b"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.028",
+                       "version_epoch":  1,
+                       "release_sequence":  33,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/phoenix-web-app.css",
+                       "size":  83279,
+                       "sha256":  "6b43d3e81f55a880ebce0326d43a0052ee7e02bf101eadc1055fa39838f3bf29"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.028",
+                       "version_epoch":  1,
+                       "release_sequence":  33,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/phoenix-web-app.js",
+                       "size":  38329,
+                       "sha256":  "e849edee1492e9f2e6c0245d524fd4f7e559d8e92291738a981e7d79f3725dc9"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.028",
+                       "version_epoch":  1,
+                       "release_sequence":  33,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/phoenix-web-index.html",
+                       "size":  28719,
+                       "sha256":  "f1c680cab4ded0e9315b4ffd44c5ca1de26dc2d2ecda47f38eada2daa6e28f90"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.022",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/PhoenixBaseUpgrade.dll",
+                       "size":  1070592,
+                       "sha256":  "c49e4e15e6ad57d5934c37d248de84984c95f9765e554fe42ad7db781f207898"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.022",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.022",
+                       "version_epoch":  1,
+                       "release_sequence":  23,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/baseupgrade_module.json",
+                       "size":  1613,
+                       "sha256":  "a169df6c1de513ff8dd2e082d562ab5f0e98b31dbe5629f6c4dd5ad04b52b9d8"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.028",
+                       "version_epoch":  1,
+                       "release_sequence":  33,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.028-r33-baseupgrade-1.0.022-stage1gt-b0-source-probe-containment/phoenix_manifest.json",
+                       "size":  2149,
+                       "sha256":  "0ea5d70b8877ba63a816c4c2a319468aae3b22bf3a849f19b608f34d28f34cdf"
+                   }
+               ]
+}
