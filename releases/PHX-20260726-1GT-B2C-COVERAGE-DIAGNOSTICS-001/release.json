@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260726-1GT-B2C-COVERAGE-DIAGNOSTICS-001",
+    "tag":  "phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics",
+    "core_version":  "0.1.033",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.033",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/PhoenixCore.dll",
+                       "size":  1153536,
+                       "sha256":  "581cae0a75d5496070180622a8ed26600d08b48bf7190b01509d5e0654700225"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.033",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/phoenix-web-app.css",
+                       "size":  90499,
+                       "sha256":  "53d9cdba19e3bf1d8b9ca7489634c2dbd10ed13ab2d6949644f13b6c3f5f0b77"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.033",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/phoenix-web-app.js",
+                       "size":  64508,
+                       "sha256":  "a270e571c1065c9c57ae53cdae126646a0793195b1c15bc8bf745f9bbe43195d"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.033",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/phoenix-web-index.html",
+                       "size":  37019,
+                       "sha256":  "3818622e9deb7b78e8289dc2a3e9c3a70987c0be03ea52df48ae0285c4829457"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.027",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/PhoenixBaseUpgrade.dll",
+                       "size":  1066496,
+                       "sha256":  "8f6d0bc58405815d31688aee781098bb3bf84e8297f31786b15e88cbc536e1b3"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.027",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.027",
+                       "version_epoch":  1,
+                       "release_sequence":  28,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/baseupgrade_module.json",
+                       "size":  1488,
+                       "sha256":  "166dcb3c83015912c88fa399bfe50e7d331fedab9c5d34265eb828c37d8943f2"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.033",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.033-r38-baseupgrade-1.0.027-stage1gt-b2c-coverage-diagnostics/phoenix_manifest.json",
+                       "size":  1984,
+                       "sha256":  "713ae68ded1f68d3c534292d909f108c58fc922a3a949df4d3e3965a402e9b27"
+                   }
+               ]
+}
