@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260726-1GT-B1B-OBSERVABILITY-API-001",
+    "tag":  "phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api",
+    "core_version":  "0.1.030",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.030",
+                       "version_epoch":  1,
+                       "release_sequence":  35,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/PhoenixCore.dll",
+                       "size":  1085952,
+                       "sha256":  "a5a862da3a1fccaf2c273cfdeff67f446c419d7b1b941a11c6c2e7fc8e3c56f4"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.030",
+                       "version_epoch":  1,
+                       "release_sequence":  35,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/phoenix-web-app.css",
+                       "size":  83279,
+                       "sha256":  "6b43d3e81f55a880ebce0326d43a0052ee7e02bf101eadc1055fa39838f3bf29"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.030",
+                       "version_epoch":  1,
+                       "release_sequence":  35,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/phoenix-web-app.js",
+                       "size":  38329,
+                       "sha256":  "e849edee1492e9f2e6c0245d524fd4f7e559d8e92291738a981e7d79f3725dc9"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.030",
+                       "version_epoch":  1,
+                       "release_sequence":  35,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/phoenix-web-index.html",
+                       "size":  28719,
+                       "sha256":  "f1c680cab4ded0e9315b4ffd44c5ca1de26dc2d2ecda47f38eada2daa6e28f90"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.024",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/PhoenixBaseUpgrade.dll",
+                       "size":  1070592,
+                       "sha256":  "fed1b5b08119c1a9d9ecafa868f485c42beed202b3a1a6d2fc5841f73e8c9833"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.024",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.024",
+                       "version_epoch":  1,
+                       "release_sequence":  25,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/baseupgrade_module.json",
+                       "size":  1607,
+                       "sha256":  "314682767782fb4774094362e14ab20f49581abe26cfe7bc5078fc5a409810b8"
+                   },
+                   {
+                       "id":  "platform_manifest",
+                       "version":  "0.1.030",
+                       "version_epoch":  1,
+                       "release_sequence":  35,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.030-r35-baseupgrade-1.0.024-stage1gt-b1b-observability-api/phoenix_manifest.json",
+                       "size":  2143,
+                       "sha256":  "b0b5391412f7c7ffffce87584f5bada0be0ebab93003b71dc9f059bdd6af48f3"
+                   }
+               ]
+}
