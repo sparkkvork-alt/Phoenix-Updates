@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260727-1GT-B3B-WORKITEM-DB-001",
+    "tag":  "phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db",
+    "core_version":  "0.1.036",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.036",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/PhoenixCore.dll",
+                       "size":  1153536,
+                       "sha256":  "dcf0f18446c19749374eda377a5b4a94e428ae62b4b50ba8b42ada2370fe54d9"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.036",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/phoenix-web-app.css",
+                       "size":  90499,
+                       "sha256":  "53d9cdba19e3bf1d8b9ca7489634c2dbd10ed13ab2d6949644f13b6c3f5f0b77"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.036",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/phoenix-web-app.js",
+                       "size":  64508,
+                       "sha256":  "a270e571c1065c9c57ae53cdae126646a0793195b1c15bc8bf745f9bbe43195d"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.036",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/phoenix-web-index.html",
+                       "size":  37019,
+                       "sha256":  "3818622e9deb7b78e8289dc2a3e9c3a70987c0be03ea52df48ae0285c4829457"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.030",
+                       "version_epoch":  1,
+                       "release_sequence":  31,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/PhoenixBaseUpgrade.dll",
+                       "size":  1082368,
+                       "sha256":  "34075735dd3438a67609e2fc823007120041ac854c54dffc34cd1719203daa1a"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.030",
+                       "version_epoch":  1,
+                       "release_sequence":  31,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.030",
+                       "version_epoch":  1,
+                       "release_sequence":  31,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/baseupgrade_module.json",
+                       "size":  1479,
+                       "sha256":  "7a13013bbf55e88bcbbcebf5537c265e70222b7830930b272dcdb58f255e4ad1"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.036",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.036-r41-baseupgrade-1.0.030-stage1gt-b3b-workitem-db/phoenix_manifest.json",
+                       "size":  1975,
+                       "sha256":  "51c09ed87f0528079a4069e5bafe27a90792bc0781deba8d85be5e4ef5b009e5"
+                   }
+               ]
+}
