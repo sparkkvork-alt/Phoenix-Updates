@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260728-1GT-B4-FULL-IDLE-CLOSURE-FIX13-001",
+    "tag":  "phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13",
+    "core_version":  "0.1.046",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.046",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/PhoenixCore.dll",
+                       "size":  1225216,
+                       "sha256":  "39c492f9f323d309a548bee6522b650591366e94077433facffd76c4e045332d"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.046",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/phoenix-web-app.css",
+                       "size":  92443,
+                       "sha256":  "d2a4e72a27522fa329a557e8b16a8221515800ad7369da5165829a971b215be4"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.046",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/phoenix-web-app.js",
+                       "size":  67716,
+                       "sha256":  "9a18e3538124df276d106a3ccc4ab0bf22369c95bf1a63c9bb4dbf7ceb7bd47a"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.046",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/phoenix-web-index.html",
+                       "size":  37535,
+                       "sha256":  "92bccabd90f09f93ccd0c9dda50db6cc14a4b974ca4fe5355835350c1161f534"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.040",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/PhoenixBaseUpgrade.dll",
+                       "size":  1103360,
+                       "sha256":  "f179155efb99feaf2028d25db6439e5089a1cd539a80d4a0bd61d441d3c045f5"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.040",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.040",
+                       "version_epoch":  1,
+                       "release_sequence":  41,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/baseupgrade_module.json",
+                       "size":  1371,
+                       "sha256":  "4ae52efbbbbd814f1b9a758b70c7303dc0dbe18ee7d0724e0cb1685404a19040"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.046",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.046-r51-baseupgrade-1.0.040-stage1gt-b4-full-idle-closure-fix13/phoenix_manifest.json",
+                       "size":  2028,
+                       "sha256":  "2e064f097d4a3c41dff10514c56e0d75709bb451dfc141f427cf5f9045e9ec33"
+                   }
+               ]
+}
