@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260728-1GT-B4-CORE-WIDE-IDLE-TRANSPORT-FIX9-001",
+    "tag":  "phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9",
+    "core_version":  "0.1.045",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.045",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/PhoenixCore.dll",
+                       "size":  1203200,
+                       "sha256":  "922c01c773beb433725886dbcd04d5bbf7c4603b1595dcb0c26fadfe7bb9cc3e"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.045",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/phoenix-web-app.css",
+                       "size":  90499,
+                       "sha256":  "53d9cdba19e3bf1d8b9ca7489634c2dbd10ed13ab2d6949644f13b6c3f5f0b77"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.045",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/phoenix-web-app.js",
+                       "size":  65270,
+                       "sha256":  "846ff7f944ae3ab3a1a82bf8639209b0ffc63217770293aca3a5680e633ef871"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.045",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/phoenix-web-index.html",
+                       "size":  37019,
+                       "sha256":  "3818622e9deb7b78e8289dc2a3e9c3a70987c0be03ea52df48ae0285c4829457"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.039",
+                       "version_epoch":  1,
+                       "release_sequence":  40,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/PhoenixBaseUpgrade.dll",
+                       "size":  1107456,
+                       "sha256":  "b754806a3672dc7620d378aa98e6ad29d6ab4d5206358f622bf05d3fbb9171bc"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.039",
+                       "version_epoch":  1,
+                       "release_sequence":  40,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.039",
+                       "version_epoch":  1,
+                       "release_sequence":  40,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/baseupgrade_module.json",
+                       "size":  1360,
+                       "sha256":  "e8ab21d8f72a637f7adc1409fda0cc36524ee16f694e5a958c2ef23390ccc8bb"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.045",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.045-r50-baseupgrade-1.0.039-stage1gt-b4-core-wide-idle-transport-fix9/phoenix_manifest.json",
+                       "size":  1992,
+                       "sha256":  "748c247c8b17afb7d325b8ab742ebbbb0a11b671f7949a22d7574389ddaf387f"
+                   }
+               ]
+}
