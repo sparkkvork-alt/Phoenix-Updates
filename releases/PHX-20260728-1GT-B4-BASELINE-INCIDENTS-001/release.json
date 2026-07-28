@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260728-1GT-B4-BASELINE-INCIDENTS-001",
+    "tag":  "phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents",
+    "core_version":  "0.1.043",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.043",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/PhoenixCore.dll",
+                       "size":  1166848,
+                       "sha256":  "04da429aef92aeef5915f145706f6ccff4ba290d839679b215f47b9f21130c8f"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.043",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/phoenix-web-app.css",
+                       "size":  90499,
+                       "sha256":  "53d9cdba19e3bf1d8b9ca7489634c2dbd10ed13ab2d6949644f13b6c3f5f0b77"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.043",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/phoenix-web-app.js",
+                       "size":  64758,
+                       "sha256":  "07ccd4b40017262a971ec69f12eca75635e94d6fc0ada808c3d0615b8b4ab330"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.043",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/phoenix-web-index.html",
+                       "size":  37019,
+                       "sha256":  "3818622e9deb7b78e8289dc2a3e9c3a70987c0be03ea52df48ae0285c4829457"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.037",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/PhoenixBaseUpgrade.dll",
+                       "size":  1099264,
+                       "sha256":  "bdf6df8d95b0911e4089b223c8ad0967b9dfffd4283ca7b675f498bbc580a438"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.037",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.037",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/baseupgrade_module.json",
+                       "size":  1517,
+                       "sha256":  "ff14ad1177d8efd98f718775e37e7fceabe134922168427433d93329d4474301"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.043",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.043-r48-baseupgrade-1.0.037-stage1gt-b4-baseline-incidents/phoenix_manifest.json",
+                       "size":  2141,
+                       "sha256":  "7dd887475ae48e6cf8b9ba00283e086e24c9e34b7cf64a7a3258d1cf38c03419"
+                   }
+               ]
+}
