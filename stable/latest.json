@@ -2,58 +2,58 @@
     "schema":  1,
     "channel":  "stable",
     "key_id":  "phoenix-release-v1",
-    "build_id":  "PHX-20260729-BASEUPGRADE-OWNER-PRESENCE-REFRESH-FIX-001",
-    "published_at_utc":  "2026-07-29T18:30:39.3302003Z",
-    "release_sequence":  54,
+    "build_id":  "PHX-20260730-OBSERVABILITY-FILTER-DIAGNOSTIC-RECOVERY-FIX-001",
+    "published_at_utc":  "2026-07-30T04:49:25.8804484Z",
+    "release_sequence":  55,
     "required_bootstrap_revision":  6,
     "required_updater_revision":  7,
     "core_version_epoch":  1,
-    "core_version":  "0.1.049",
+    "core_version":  "0.1.050",
     "core_api":  1,
     "module_api":  1,
     "private_admin_protocol":  1,
     "components":  [
                        {
                            "id":  "phoenix_core",
-                           "version":  "0.1.049",
+                           "version":  "0.1.050",
                            "version_epoch":  1,
-                           "release_sequence":  54,
+                           "release_sequence":  55,
                            "required":  true,
                            "target":  "bin/core/PhoenixCore.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/PhoenixCore.dll",
-                           "size":  1225216,
-                           "sha256":  "f3dcb39e0917a62379ff1e5bd204a1aafce9e852fc9914719543005c24ccd833"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/PhoenixCore.dll",
+                           "size":  1227776,
+                           "sha256":  "223a0ff2134b8ef25d5d36ed21d4d1d77f59cbe055affb0af25096e2e248de74"
                        },
                        {
                            "id":  "phoenix_web_css",
-                           "version":  "0.1.049",
+                           "version":  "0.1.050",
                            "version_epoch":  1,
-                           "release_sequence":  54,
+                           "release_sequence":  55,
                            "required":  true,
                            "target":  "web/admin/app.css",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/phoenix-web-app.css",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/phoenix-web-app.css",
                            "size":  92443,
                            "sha256":  "d2a4e72a27522fa329a557e8b16a8221515800ad7369da5165829a971b215be4"
                        },
                        {
                            "id":  "phoenix_web_js",
-                           "version":  "0.1.049",
+                           "version":  "0.1.050",
                            "version_epoch":  1,
-                           "release_sequence":  54,
+                           "release_sequence":  55,
                            "required":  true,
                            "target":  "web/admin/app.js",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/phoenix-web-app.js",
-                           "size":  68163,
-                           "sha256":  "611e4942f777ecb89e32c1f5a2db367042ffd286ec46acd3c71025b337a0d91d"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/phoenix-web-app.js",
+                           "size":  69489,
+                           "sha256":  "00d93ae243f1e762fb29f7673dc04f4e0ffa0eb46e3a104acca49e4e87722e82"
                        },
                        {
                            "id":  "phoenix_web_index",
-                           "version":  "0.1.049",
+                           "version":  "0.1.050",
                            "version_epoch":  1,
-                           "release_sequence":  54,
+                           "release_sequence":  55,
                            "required":  true,
                            "target":  "web/admin/index.html",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/phoenix-web-index.html",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/phoenix-web-index.html",
                            "size":  37535,
                            "sha256":  "92bccabd90f09f93ccd0c9dda50db6cc14a4b974ca4fe5355835350c1161f534"
                        },
@@ -64,7 +64,7 @@
                            "release_sequence":  43,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/PhoenixBaseUpgrade.dll",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/PhoenixBaseUpgrade.dll",
                            "size":  1103872,
                            "sha256":  "d632d0d1a26307f8fb8f9d77b0116d83589d52247da7faecce54eade28966609"
                        },
@@ -75,7 +75,7 @@
                            "release_sequence":  43,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/baseupgrade_payment_runtime.lua",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/baseupgrade_payment_runtime.lua",
                            "size":  36863,
                            "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
                        },
@@ -86,20 +86,20 @@
                            "release_sequence":  43,
                            "required":  true,
                            "target":  "modules/BaseUpgrade/module.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/baseupgrade_module.json",
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/baseupgrade_module.json",
                            "size":  1324,
                            "sha256":  "1d3fde659757fdfaf719ef6746dc50d8afd1b77617763023c4bae25f2951047d"
                        },
                        {
                            "id":  "phoenix_manifest",
-                           "version":  "0.1.049",
+                           "version":  "0.1.050",
                            "version_epoch":  1,
-                           "release_sequence":  54,
+                           "release_sequence":  55,
                            "required":  true,
                            "target":  "phoenix_manifest.json",
-                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.049-r54-baseupgrade-1.0.042-owner-presence-refresh-fix/phoenix_manifest.json",
-                           "size":  1994,
-                           "sha256":  "35418fa58317bd002686ff1a095aff04a5afd56402ccfa5a170b0c62b7f93e2e"
+                           "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.050-r55-observability-filter-diagnostic-recovery/phoenix_manifest.json",
+                           "size":  2000,
+                           "sha256":  "275201b9db84ce4b834b996f268489af9a9a8b1e8aaecc823eeecf6fb9a0204e"
                        }
                    ]
 }
