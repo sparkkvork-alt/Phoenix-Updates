@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260730-BASEUPGRADE-ACTIVE-PIPELINE-OPTIMIZATION-001",
+    "tag":  "phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization",
+    "core_version":  "0.1.051",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.051",
+                       "version_epoch":  1,
+                       "release_sequence":  56,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/PhoenixCore.dll",
+                       "size":  1227776,
+                       "sha256":  "c6914e42448e2868951265990302d741b13c1faf4b75ba415669357d2361a104"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.051",
+                       "version_epoch":  1,
+                       "release_sequence":  56,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/phoenix-web-app.css",
+                       "size":  92443,
+                       "sha256":  "d2a4e72a27522fa329a557e8b16a8221515800ad7369da5165829a971b215be4"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.051",
+                       "version_epoch":  1,
+                       "release_sequence":  56,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/phoenix-web-app.js",
+                       "size":  69489,
+                       "sha256":  "00d93ae243f1e762fb29f7673dc04f4e0ffa0eb46e3a104acca49e4e87722e82"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.051",
+                       "version_epoch":  1,
+                       "release_sequence":  56,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/phoenix-web-index.html",
+                       "size":  37535,
+                       "sha256":  "92bccabd90f09f93ccd0c9dda50db6cc14a4b974ca4fe5355835350c1161f534"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.043",
+                       "version_epoch":  1,
+                       "release_sequence":  44,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/PhoenixBaseUpgrade.dll",
+                       "size":  1104384,
+                       "sha256":  "eb8d1d8605952d281d53fb9115b43540cc15f3dafda3f2a0c08b195cd27fd8ec"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.043",
+                       "version_epoch":  1,
+                       "release_sequence":  44,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.043",
+                       "version_epoch":  1,
+                       "release_sequence":  44,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/baseupgrade_module.json",
+                       "size":  1360,
+                       "sha256":  "a3a2e87ac23173e7f91fba2c24c2842f75c878beb627f77644f71e8caf9a3dd4"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.051",
+                       "version_epoch":  1,
+                       "release_sequence":  56,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.051-r56-baseupgrade-1.0.043-active-pipeline-optimization/phoenix_manifest.json",
+                       "size":  1996,
+                       "sha256":  "9fa9cba663c19bc8131b88c2d56a740a1dd0bc48bc6d70ccd975952689be1330"
+                   }
+               ]
+}
