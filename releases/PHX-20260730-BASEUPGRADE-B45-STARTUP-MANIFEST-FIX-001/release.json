@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260730-BASEUPGRADE-B45-STARTUP-MANIFEST-FIX-001",
+    "tag":  "phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix",
+    "core_version":  "0.1.053",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.053",
+                       "version_epoch":  1,
+                       "release_sequence":  58,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/PhoenixCore.dll",
+                       "size":  1245184,
+                       "sha256":  "b222b969ae87c3a322415d12f68cd15df703ba188e3dff907a4c999ea67a7c1e"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.053",
+                       "version_epoch":  1,
+                       "release_sequence":  58,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/phoenix-web-app.css",
+                       "size":  94511,
+                       "sha256":  "f93819ad4d2e1f13016ebf7263fde19102269c86f7b06192eca456306eea6002"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.053",
+                       "version_epoch":  1,
+                       "release_sequence":  58,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/phoenix-web-app.js",
+                       "size":  77327,
+                       "sha256":  "2435eae34abb48f86c806cf9989bff44db258f19e5a79664192d40ee98e6232c"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.053",
+                       "version_epoch":  1,
+                       "release_sequence":  58,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/phoenix-web-index.html",
+                       "size":  41102,
+                       "sha256":  "d7dfeb8dea68578d741a18a2e7990a3771f803a8b06b1643b530807b548c82a3"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.045",
+                       "version_epoch":  1,
+                       "release_sequence":  46,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/PhoenixBaseUpgrade.dll",
+                       "size":  1155584,
+                       "sha256":  "c32fac47980c601e7e03c7452a2465f7ee8236154a708a3c4a4bfe82119e4ad5"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.045",
+                       "version_epoch":  1,
+                       "release_sequence":  46,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.045",
+                       "version_epoch":  1,
+                       "release_sequence":  46,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/baseupgrade_module.json",
+                       "size":  1381,
+                       "sha256":  "7b297390a8214a6fd235c73c7efea731009bb0f0f9b04c361cee50dea4b3cfb2"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.053",
+                       "version_epoch":  1,
+                       "release_sequence":  58,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.053-r58-baseupgrade-1.0.045-b45-startup-manifest-fix/phoenix_manifest.json",
+                       "size":  1992,
+                       "sha256":  "38984454246425d46f0637e85fd4c09897eea66511af76671229c161f3a6f88c"
+                   }
+               ]
+}
