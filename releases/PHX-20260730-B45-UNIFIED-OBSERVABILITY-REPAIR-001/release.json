@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260730-B45-UNIFIED-OBSERVABILITY-REPAIR-001",
+    "tag":  "phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair",
+    "core_version":  "0.1.054",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.054",
+                       "version_epoch":  1,
+                       "release_sequence":  59,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/PhoenixCore.dll",
+                       "size":  1473536,
+                       "sha256":  "970ad0ed6f7d60d91b3d99af50729f6db51b319ac113af463fab2e8dea86426e"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.054",
+                       "version_epoch":  1,
+                       "release_sequence":  59,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/phoenix-web-app.css",
+                       "size":  96076,
+                       "sha256":  "030e6444351584a27720ecc269240774bc789cbf1c4c8c3289c75b6e6e302c24"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.054",
+                       "version_epoch":  1,
+                       "release_sequence":  59,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/phoenix-web-app.js",
+                       "size":  82815,
+                       "sha256":  "fa564465cf1b803b20c7c510c029e479968934b1871d9b2e6606b094db14597f"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.054",
+                       "version_epoch":  1,
+                       "release_sequence":  59,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/phoenix-web-index.html",
+                       "size":  42285,
+                       "sha256":  "9d800020a81220bb326bc68d7108a0f2f8bbd9448b3a9f3d28c2c40bda8b03be"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.046",
+                       "version_epoch":  1,
+                       "release_sequence":  47,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/PhoenixBaseUpgrade.dll",
+                       "size":  1158656,
+                       "sha256":  "8beaf8e2b2659c6c6726508bf3dbf4ceff867f77123919469ede80c59d021877"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.046",
+                       "version_epoch":  1,
+                       "release_sequence":  47,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.046",
+                       "version_epoch":  1,
+                       "release_sequence":  47,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/baseupgrade_module.json",
+                       "size":  1330,
+                       "sha256":  "bfd2d100cec2a0e6e72e1289f5790841bf65718333e01c57fbdbcda2bd69dfb5"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.054",
+                       "version_epoch":  1,
+                       "release_sequence":  59,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.054-r59-baseupgrade-1.0.046-b45-unified-observability-repair/phoenix_manifest.json",
+                       "size":  2030,
+                       "sha256":  "f3d2b54a9975acb32e284c608f5409f6f01a7fa38bd8d4a6cb70bc46f528dae2"
+                   }
+               ]
+}
