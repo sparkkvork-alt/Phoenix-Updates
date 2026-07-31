@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260730-B45-SCHEDULER-CIRCUIT-DIAGNOSTIC-REPAIR-001",
+    "tag":  "phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair",
+    "core_version":  "0.1.055",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.055",
+                       "version_epoch":  1,
+                       "release_sequence":  60,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/PhoenixCore.dll",
+                       "size":  1482752,
+                       "sha256":  "32d783c846e4077104a92f198b0beac347f6416d9e03c8c38ad09bbeb65b95db"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.055",
+                       "version_epoch":  1,
+                       "release_sequence":  60,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/phoenix-web-app.css",
+                       "size":  96076,
+                       "sha256":  "030e6444351584a27720ecc269240774bc789cbf1c4c8c3289c75b6e6e302c24"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.055",
+                       "version_epoch":  1,
+                       "release_sequence":  60,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/phoenix-web-app.js",
+                       "size":  83143,
+                       "sha256":  "406fa7ac27c9328d815d09ef4ddff28b1f029b348af09ec47ab45b7787772b0f"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.055",
+                       "version_epoch":  1,
+                       "release_sequence":  60,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/phoenix-web-index.html",
+                       "size":  42285,
+                       "sha256":  "9d800020a81220bb326bc68d7108a0f2f8bbd9448b3a9f3d28c2c40bda8b03be"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.047",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/PhoenixBaseUpgrade.dll",
+                       "size":  1160704,
+                       "sha256":  "b38e80045ac1479f1c913a4e3088c7cf9c00cd2cf692a5e0eb49d9c7754c228a"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.047",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.047",
+                       "version_epoch":  1,
+                       "release_sequence":  48,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/baseupgrade_module.json",
+                       "size":  1290,
+                       "sha256":  "b023868a6884070b64be75a1e76be066bae6bed7d00c08c9289ab0eba60b8c08"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.055",
+                       "version_epoch":  1,
+                       "release_sequence":  60,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.055-r60-baseupgrade-1.0.047-b45-scheduler-circuit-diagnostic-repair/phoenix_manifest.json",
+                       "size":  1995,
+                       "sha256":  "cc5bc3bb6b54f3455aedc12fd30d75a903fe152e0aa1f8665799176d2e2049cd"
+                   }
+               ]
+}
