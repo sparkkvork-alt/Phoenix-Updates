@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260731-B45-OWNER-GUARD-HEARTBEAT-REPAIR-001",
+    "tag":  "phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair",
+    "core_version":  "0.1.056",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.056",
+                       "version_epoch":  1,
+                       "release_sequence":  61,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/PhoenixCore.dll",
+                       "size":  1483264,
+                       "sha256":  "64e1f33b967c819525cc97ad1b7effb0da4e8d7a79bbb8f11cbc004b30f87996"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.056",
+                       "version_epoch":  1,
+                       "release_sequence":  61,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/phoenix-web-app.css",
+                       "size":  96076,
+                       "sha256":  "030e6444351584a27720ecc269240774bc789cbf1c4c8c3289c75b6e6e302c24"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.056",
+                       "version_epoch":  1,
+                       "release_sequence":  61,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/phoenix-web-app.js",
+                       "size":  83996,
+                       "sha256":  "4e09b398886d41f4f0b6a068a83eeae938b8461b5a0fbfeeae2b22c5183c5901"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.056",
+                       "version_epoch":  1,
+                       "release_sequence":  61,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/phoenix-web-index.html",
+                       "size":  42285,
+                       "sha256":  "9d800020a81220bb326bc68d7108a0f2f8bbd9448b3a9f3d28c2c40bda8b03be"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.048",
+                       "version_epoch":  1,
+                       "release_sequence":  49,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/PhoenixBaseUpgrade.dll",
+                       "size":  1165824,
+                       "sha256":  "604b78a574115671e2cdf0d4cae1e68cba3a00f8c14589d58c522b64f7d8fefa"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.048",
+                       "version_epoch":  1,
+                       "release_sequence":  49,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.048",
+                       "version_epoch":  1,
+                       "release_sequence":  49,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/baseupgrade_module.json",
+                       "size":  1280,
+                       "sha256":  "462096cdca13412880de0ce9718110a51673ad73790d107481081a5e9fd47849"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.056",
+                       "version_epoch":  1,
+                       "release_sequence":  61,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.056-r61-baseupgrade-1.0.048-b45-owner-guard-heartbeat-repair/phoenix_manifest.json",
+                       "size":  1988,
+                       "sha256":  "062062f5c547978f614f205ecfde4d76e232b4daf4e7b6298bbfdbb03a2776bd"
+                   }
+               ]
+}
