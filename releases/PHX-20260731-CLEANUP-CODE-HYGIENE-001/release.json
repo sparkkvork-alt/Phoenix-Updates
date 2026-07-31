@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260731-CLEANUP-CODE-HYGIENE-001",
+    "tag":  "phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene",
+    "core_version":  "0.1.058",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.058",
+                       "version_epoch":  1,
+                       "release_sequence":  63,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/PhoenixCore.dll",
+                       "size":  1483776,
+                       "sha256":  "a2aa622b3d13c1f3f44bf6a37ca277b41e1d546a604214c6b24ea1bf8764eb50"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.058",
+                       "version_epoch":  1,
+                       "release_sequence":  63,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/phoenix-web-app.css",
+                       "size":  183301,
+                       "sha256":  "028ba0ba35d898e34b1cffa0571ad2dc7c3611c5386882cb03beb837ddb1d8b4"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.058",
+                       "version_epoch":  1,
+                       "release_sequence":  63,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/phoenix-web-app.js",
+                       "size":  100224,
+                       "sha256":  "290e1f576ae4800be7ad760e39ce3b99f1e0beb4acefbba6715cd164979ad417"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.058",
+                       "version_epoch":  1,
+                       "release_sequence":  63,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/phoenix-web-index.html",
+                       "size":  40739,
+                       "sha256":  "464e2556292f96ef680b8e936a6508e5ba8662eae1c3e26cf18efd34e2676269"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.050",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/PhoenixBaseUpgrade.dll",
+                       "size":  1165824,
+                       "sha256":  "1bc675ed0121274a50890acaeb19825e647b16bf1d57c2e773e030a1f584a778"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.050",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.050",
+                       "version_epoch":  1,
+                       "release_sequence":  51,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/baseupgrade_module.json",
+                       "size":  1471,
+                       "sha256":  "4b99cd410821ac85ff570692aa31d200d5b0124d7ab1a445369654a52d17be63"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.058",
+                       "version_epoch":  1,
+                       "release_sequence":  63,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.058-r63-baseupgrade-1.0.050-cleanup-code-hygiene/phoenix_manifest.json",
+                       "size":  2137,
+                       "sha256":  "1527c74c234bcaf0c66412ba893f1221fd81a6afc61fad7a685d140ea666af2b"
+                   }
+               ]
+}
