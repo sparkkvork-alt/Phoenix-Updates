@@ -1,0 +1,96 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260731-SCUM-NATIVE-RELOCATION-OBSERVABILITY-001",
+    "tag":  "phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability",
+    "core_version":  "0.1.057",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.057",
+                       "version_epoch":  1,
+                       "release_sequence":  62,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/PhoenixCore.dll",
+                       "size":  1483776,
+                       "sha256":  "b40918c1c4d399544c56dba2761d3a46893b0848b0f900a78ab805fbd0a9400c"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.057",
+                       "version_epoch":  1,
+                       "release_sequence":  62,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/phoenix-web-app.css",
+                       "size":  183301,
+                       "sha256":  "028ba0ba35d898e34b1cffa0571ad2dc7c3611c5386882cb03beb837ddb1d8b4"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.057",
+                       "version_epoch":  1,
+                       "release_sequence":  62,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/phoenix-web-app.js",
+                       "size":  100224,
+                       "sha256":  "290e1f576ae4800be7ad760e39ce3b99f1e0beb4acefbba6715cd164979ad417"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.057",
+                       "version_epoch":  1,
+                       "release_sequence":  62,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/phoenix-web-index.html",
+                       "size":  40739,
+                       "sha256":  "464e2556292f96ef680b8e936a6508e5ba8662eae1c3e26cf18efd34e2676269"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.049",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/PhoenixBaseUpgrade.dll",
+                       "size":  1165824,
+                       "sha256":  "e20be35ea805801528aa95650524352e23c91a7be7ee42c85f27f0342a24321d"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.049",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.049",
+                       "version_epoch":  1,
+                       "release_sequence":  50,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/baseupgrade_module.json",
+                       "size":  1390,
+                       "sha256":  "af6502848f395c50df0546f27013bba0e082345bf58c5b2d8059c9f88d858e56"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.057",
+                       "version_epoch":  1,
+                       "release_sequence":  62,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.057-r62-baseupgrade-1.0.049-scum-relocation-observability/phoenix_manifest.json",
+                       "size":  2152,
+                       "sha256":  "5fa4da05bc2e8dcbc7ff443c421b16099f0e7df71916e5f5104a406b21c1e499"
+                   }
+               ]
+}
