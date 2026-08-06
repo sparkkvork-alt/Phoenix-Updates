@@ -1,0 +1,99 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260806-OBSERVABILITY-REALTIME-SSE-OPTIMIZATION-001",
+    "core_version":  "0.1.076",
+    "base_upgrade_version":  "1.0.067",
+    "tag":  "phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse",
+    "title":  "Phoenix Core 0.1.076 / BaseUpgrade 1.0.067 - Observability Realtime SSE Optimization",
+    "published_at_utc":  "2026-08-06T14:44:26.3028844Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.076",
+                       "version_epoch":  1,
+                       "release_sequence":  81,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/PhoenixCore.dll",
+                       "size":  1579008,
+                       "sha256":  "385a2abd215f23bdd49f97ae5412e75883163902dae85e0849953cd7aa902fc0"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.076",
+                       "version_epoch":  1,
+                       "release_sequence":  81,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/phoenix-web-app.css",
+                       "size":  185656,
+                       "sha256":  "8222fb9dfa300b11505401b2cfc93733427a335dd92de085b07883054b83ed91"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.076",
+                       "version_epoch":  1,
+                       "release_sequence":  81,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/phoenix-web-app.js",
+                       "size":  135830,
+                       "sha256":  "503e679fa5b653c9bcd1be8b6b1135879ac15c90d3112c3e5eaaa83f291e6b97"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.076",
+                       "version_epoch":  1,
+                       "release_sequence":  81,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/phoenix-web-index.html",
+                       "size":  50958,
+                       "sha256":  "8a6856549a8060bb31ad86d0f55c3a5e9c4bf0f61bfe7b4ab816d65af1028e66"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.067",
+                       "version_epoch":  1,
+                       "release_sequence":  68,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/PhoenixBaseUpgrade.dll",
+                       "size":  1276416,
+                       "sha256":  "5b675f39fe5ebc76dfa46b88b6892f04114cbec3d42bddb05870bf39ec86657b"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.067",
+                       "version_epoch":  1,
+                       "release_sequence":  68,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.067",
+                       "version_epoch":  1,
+                       "release_sequence":  68,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/baseupgrade_module.json",
+                       "size":  1444,
+                       "sha256":  "ba6841ca09e0247709265cacf6f6e0336c22f6623965855a493823e4ace9358c"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.076",
+                       "version_epoch":  1,
+                       "release_sequence":  81,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.076-r81-baseupgrade-1.0.067-observability-realtime-sse/phoenix_manifest.json",
+                       "size":  2156,
+                       "sha256":  "f8f2f840de93a2b89aeb03ee832001cc7505e81d7a9d62d6c403667b34c976b9"
+                   }
+               ]
+}
