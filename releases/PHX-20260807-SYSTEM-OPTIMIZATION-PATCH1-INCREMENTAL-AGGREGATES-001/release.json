@@ -1,0 +1,99 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260807-SYSTEM-OPTIMIZATION-PATCH1-INCREMENTAL-AGGREGATES-001",
+    "core_version":  "0.1.077",
+    "base_upgrade_version":  "1.0.068",
+    "tag":  "phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1",
+    "title":  "Phoenix Core 0.1.077 / BaseUpgrade 1.0.068 - System Optimization Patch 1",
+    "published_at_utc":  "2026-08-07T03:52:19.6640766Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.077",
+                       "version_epoch":  1,
+                       "release_sequence":  82,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/PhoenixCore.dll",
+                       "size":  1579008,
+                       "sha256":  "aa95bdf766bde7659767b27bcaa1eccb1c7f1f6de0eda81dff7b01e8d206dc11"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.077",
+                       "version_epoch":  1,
+                       "release_sequence":  82,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/phoenix-web-app.css",
+                       "size":  185656,
+                       "sha256":  "8222fb9dfa300b11505401b2cfc93733427a335dd92de085b07883054b83ed91"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.077",
+                       "version_epoch":  1,
+                       "release_sequence":  82,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/phoenix-web-app.js",
+                       "size":  135830,
+                       "sha256":  "503e679fa5b653c9bcd1be8b6b1135879ac15c90d3112c3e5eaaa83f291e6b97"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.077",
+                       "version_epoch":  1,
+                       "release_sequence":  82,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/phoenix-web-index.html",
+                       "size":  50958,
+                       "sha256":  "8a6856549a8060bb31ad86d0f55c3a5e9c4bf0f61bfe7b4ab816d65af1028e66"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.068",
+                       "version_epoch":  1,
+                       "release_sequence":  69,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/PhoenixBaseUpgrade.dll",
+                       "size":  1284608,
+                       "sha256":  "b3c2f74979776aba7d6a8801d1562cd6f9b5338c0ca8e29db3b225f282ecd23e"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.068",
+                       "version_epoch":  1,
+                       "release_sequence":  69,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.068",
+                       "version_epoch":  1,
+                       "release_sequence":  69,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/baseupgrade_module.json",
+                       "size":  1455,
+                       "sha256":  "6623972e6a28621d628a32a43e028ccb3a88b3c590f43278c37664ba3e67b19d"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.077",
+                       "version_epoch":  1,
+                       "release_sequence":  82,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.077-r82-baseupgrade-1.0.068-system-optimization-patch1/phoenix_manifest.json",
+                       "size":  2166,
+                       "sha256":  "8c3a29d8313ba40d3b7c2629838e9777a6820e3abb28fcdf0ee4e0144f2ad9bf"
+                   }
+               ]
+}
