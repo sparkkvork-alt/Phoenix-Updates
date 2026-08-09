@@ -1,0 +1,99 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260809-RM_FULL_CYCLE_SMOKE_20260809_1852-001",
+    "core_version":  "0.1.086",
+    "base_upgrade_version":  "1.0.077",
+    "tag":  "phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852",
+    "title":  "Phoenix RM_FULL_CYCLE_SMOKE_20260809_1852",
+    "published_at_utc":  "2026-08-09T14:13:47.8918516Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.086",
+                       "version_epoch":  1,
+                       "release_sequence":  91,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/PhoenixCore.dll",
+                       "size":  1595392,
+                       "sha256":  "ecb62ddd1e6310ecaf887c1e9920b5eeaa2c7fb99f1ac31014c15a6645981831"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.086",
+                       "version_epoch":  1,
+                       "release_sequence":  91,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/phoenix-web-app.css",
+                       "size":  185656,
+                       "sha256":  "8222fb9dfa300b11505401b2cfc93733427a335dd92de085b07883054b83ed91"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.086",
+                       "version_epoch":  1,
+                       "release_sequence":  91,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/phoenix-web-app.js",
+                       "size":  148739,
+                       "sha256":  "8557ca530d200c992675624479503ed3cc0f468a58744b7faeb3cd6581db4323"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.086",
+                       "version_epoch":  1,
+                       "release_sequence":  91,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/phoenix-web-index.html",
+                       "size":  51074,
+                       "sha256":  "0d1f9797d3c4e574b3b9f5e529e82ec9744cdc03d9db26f530c64596afefb30f"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.077",
+                       "version_epoch":  1,
+                       "release_sequence":  78,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/PhoenixBaseUpgrade.dll",
+                       "size":  1287680,
+                       "sha256":  "80c0981adc824e2fdd43fde11791aeb895ac556ecfcb71f8c5ac04bb9962b1b9"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.077",
+                       "version_epoch":  1,
+                       "release_sequence":  78,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/baseupgrade_payment_runtime.lua",
+                       "size":  36863,
+                       "sha256":  "9b2a58d34a479e4b08dee88b8a73657bef55e94bb79bd1e3128409978d00c81a"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.077",
+                       "version_epoch":  1,
+                       "release_sequence":  78,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/baseupgrade_module.json",
+                       "size":  1388,
+                       "sha256":  "69c3f2529768d1461cb2409ae5ccc4c01ff79073e58df00d7b2ebe78d539fd21"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.086",
+                       "version_epoch":  1,
+                       "release_sequence":  91,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.086-r91-rm-full-cycle-smoke-20260809-1852/phoenix_manifest.json",
+                       "size":  2150,
+                       "sha256":  "12f45451cb6f28b57b4671ec158072e2fa04132387b54c7eb9093aeef4aa4436"
+                   }
+               ]
+}
