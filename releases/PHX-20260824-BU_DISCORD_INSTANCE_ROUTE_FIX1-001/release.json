@@ -1,0 +1,289 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260824-BU_DISCORD_INSTANCE_ROUTE_FIX1-001",
+    "core_version":  "0.1.222",
+    "module_count":  2,
+    "modules":  [
+                    {
+                        "id":  "base_upgrade",
+                        "identity_key":  "base_upgrade",
+                        "version_epoch":  1,
+                        "version":  "1.0.213",
+                        "release_sequence":  214,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.000",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "BASEUPGRADE_B4_CORE_WIDE_IDLE_TRANSPORT_20260728"
+                    },
+                    {
+                        "id":  "taxi",
+                        "identity_key":  "taxi",
+                        "version_epoch":  1,
+                        "version":  "1.0.017",
+                        "release_sequence":  17,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.205",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "TAXI_CORE_PLAYER_EXECUTION_ECONOMY_V1"
+                    }
+                ],
+    "tag":  "phx-0.1.222-r227-bu-discord-instance-route-fix1",
+    "title":  "Phoenix BU_DISCORD_INSTANCE_ROUTE_FIX1",
+    "published_at_utc":  "2026-08-24T05:53:45.2051402Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/PhoenixCore.dll",
+                       "size":  2095104,
+                       "sha256":  "9474864714aefdcd833ff109a4fafddd7420df87add81cb7fba6e52a563458e4"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-app.css",
+                       "size":  171942,
+                       "sha256":  "f77c486626dda82246e9fba8718cea9e14408341256d36f228b64bc184b4603a"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-app.js",
+                       "size":  160023,
+                       "sha256":  "d40917bece0f72368835083c9788b4f0c0867c2d0b47a94578af6eeb8658662a"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-index.html",
+                       "size":  69294,
+                       "sha256":  "7855783aa399684f944391b5431098d30d7ce155deafd191c6bef9a7b9fdd270"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_account_medallion_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-account-medallion-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-account-medallion-v1.png",
+                       "size":  359272,
+                       "sha256":  "bd1838ee6a8baefebe8847aed1600b7476b046bb09749632e4cda783260f397f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_brand_head_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-brand-head-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-brand-head-v2.png",
+                       "size":  161952,
+                       "sha256":  "59b31be692fb22f67dc653444ef94d0149314fb1f8dfaf2eca8b08701a06cc19"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_core_wordmark_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-core-wordmark-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-core-wordmark-v2.png",
+                       "size":  46546,
+                       "sha256":  "08d4aa1aeb4ee09008de2be9d37a058b3c660fd46751beebc220bc51bffd2ba5"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_bl_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-bl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-corner-bl-v2.png",
+                       "size":  9983,
+                       "sha256":  "5649d708547cb37bb9b4fe2a4c541884565a562506ec2041d4d2902377362299"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_br_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-br-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-corner-br-v2.png",
+                       "size":  9975,
+                       "sha256":  "f8e3a4279dc1bd23fc58330c972a8cac307494e39811bb34396ab3839f6bd128"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tl_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-corner-tl-v2.png",
+                       "size":  9246,
+                       "sha256":  "4b4c53a40c4fa926862c82a6c19d0cf3c2bce78262abc748aae5d00ca2a2894f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tr_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tr-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-corner-tr-v2.png",
+                       "size":  9988,
+                       "sha256":  "bb5e9540d0fc1f23dc06858936574c2f5418ddfeeff16fedebeda489db5e70a0"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_favicon_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-favicon-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-game-favicon-v1.png",
+                       "size":  4744,
+                       "sha256":  "e53ceb986b005d4e3326c55bcce1166d9f40dd2c29fd8e3e46d53cc9fc53a05a"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_lockup_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-lockup-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-game-lockup-v1.png",
+                       "size":  151331,
+                       "sha256":  "6f398804b8ece3a9298999200fff04a634db366df0a931df449913950c025dc2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_panel_bg_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-panel-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-real-panel-bg-v1.png",
+                       "size":  960528,
+                       "sha256":  "0f2a7a7b26e06044586b05f5219af49d7272cc46e998de893f60d86be3f46ee2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_sidebar_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-sidebar-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-real-sidebar-v1.png",
+                       "size":  1927124,
+                       "sha256":  "9e481f5c2d78704542562b7338759d103008de7927affbd207524c8bd2e6e981"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_site_bg_v1",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-site-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-real-site-bg-v1.png",
+                       "size":  1810165,
+                       "sha256":  "c72aaf9afbe68c8e046aa548d1be3aaa427a35fa4ccdaf022b8c1a8d4ee011a6"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_topbar_bg_v2",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-topbar-bg-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix-web-asset-phoenix-topbar-bg-v2.png",
+                       "size":  861448,
+                       "sha256":  "a449296d5b5f6bc9228aab9db1077eac63b507d254705d1f594309b4a43327c0"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.213",
+                       "version_epoch":  1,
+                       "release_sequence":  214,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/PhoenixBaseUpgrade.dll",
+                       "size":  6351872,
+                       "sha256":  "42580d13f1f55a2b8c0f36447c72bc4fe0d6c14287fe63e664c098ac60a4b316"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.213",
+                       "version_epoch":  1,
+                       "release_sequence":  214,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/baseupgrade_payment_runtime.lua",
+                       "size":  49673,
+                       "sha256":  "5c3882439bd076f80f1040b1bd99d73858f77621dfe7da1820a8b712c567ce13"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.213",
+                       "version_epoch":  1,
+                       "release_sequence":  214,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/baseupgrade_module.json",
+                       "size":  1319,
+                       "sha256":  "186ddd726d645ae93b25d16273f73a9d46b3da9cf1a07fd819335b3790d31035"
+                   },
+                   {
+                       "id":  "taxi",
+                       "version":  "1.0.017",
+                       "version_epoch":  1,
+                       "release_sequence":  17,
+                       "required":  true,
+                       "target":  "modules/Taxi/bin/PhoenixTaxi.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/PhoenixTaxi.dll",
+                       "size":  190464,
+                       "sha256":  "d045f382cd3fa738959cbe658f307947145b2d51dc64da96e7d2e1b6fcbe32f3"
+                   },
+                   {
+                       "id":  "taxi_manifest",
+                       "version":  "1.0.017",
+                       "version_epoch":  1,
+                       "release_sequence":  17,
+                       "required":  true,
+                       "target":  "modules/Taxi/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/taxi_module.json",
+                       "size":  1167,
+                       "sha256":  "64e73e3e5c27b22c18b735778f0022704ff150c864f59a913228c73df523fdf1"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.222",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.222-r227-bu-discord-instance-route-fix1/phoenix_manifest.json",
+                       "size":  2152,
+                       "sha256":  "b4087f7b7a8fb7e26a0f7f32ad085d2165936ca0bf9d4f72c5ed22c481e5d031"
+                   }
+               ],
+    "base_upgrade_version":  "1.0.213"
+}
