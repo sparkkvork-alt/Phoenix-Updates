@@ -1,0 +1,322 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260826-PHX-20260826-RESPAWN-COR-69F4286C5C57-001",
+    "core_version":  "0.1.235",
+    "module_count":  3,
+    "modules":  [
+                    {
+                        "id":  "base_upgrade",
+                        "identity_key":  "base_upgrade",
+                        "version_epoch":  1,
+                        "version":  "1.0.226",
+                        "release_sequence":  227,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.000",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "BASEUPGRADE_B4_CORE_WIDE_IDLE_TRANSPORT_20260728"
+                    },
+                    {
+                        "id":  "respawn",
+                        "identity_key":  "respawn",
+                        "version_epoch":  1,
+                        "version":  "1.0.013",
+                        "release_sequence":  13,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.222",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "RESPAWN_SCUM_REGISTRY_DISCORD_V1"
+                    },
+                    {
+                        "id":  "taxi",
+                        "identity_key":  "taxi",
+                        "version_epoch":  1,
+                        "version":  "1.0.030",
+                        "release_sequence":  30,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.205",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "TAXI_CORE_PLAYER_EXECUTION_ECONOMY_V1"
+                    }
+                ],
+    "tag":  "phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001",
+    "title":  "Phoenix PHX-20260826-RESPAWN-CORRECTIVE-V1-001",
+    "published_at_utc":  "2026-08-26T16:37:51.7946050Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/PhoenixCore.dll",
+                       "size":  2098176,
+                       "sha256":  "81da5e00a65244d2e7fd9baf356939ffe6302a1d6445bc5a5b3c5d72e28ef432"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-app.css",
+                       "size":  172688,
+                       "sha256":  "8d37bb2752b4b732795fdb7df4459e3bda4d9532e0d23a60de5c106c8cb8fe1d"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-app.js",
+                       "size":  178937,
+                       "sha256":  "e706f6c6afa4c2b4715735acc86eeec5d0c268399db67f2f9187928e33b7272e"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-index.html",
+                       "size":  82048,
+                       "sha256":  "26eafd31586a1029e935cc321d5831e4636b0967116cea479ef46be3f6524943"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_account_medallion_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-account-medallion-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-account-medallion-v1.png",
+                       "size":  359272,
+                       "sha256":  "bd1838ee6a8baefebe8847aed1600b7476b046bb09749632e4cda783260f397f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_brand_head_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-brand-head-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-brand-head-v2.png",
+                       "size":  161952,
+                       "sha256":  "59b31be692fb22f67dc653444ef94d0149314fb1f8dfaf2eca8b08701a06cc19"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_core_wordmark_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-core-wordmark-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-core-wordmark-v2.png",
+                       "size":  46546,
+                       "sha256":  "08d4aa1aeb4ee09008de2be9d37a058b3c660fd46751beebc220bc51bffd2ba5"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_bl_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-bl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-corner-bl-v2.png",
+                       "size":  9983,
+                       "sha256":  "5649d708547cb37bb9b4fe2a4c541884565a562506ec2041d4d2902377362299"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_br_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-br-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-corner-br-v2.png",
+                       "size":  9975,
+                       "sha256":  "f8e3a4279dc1bd23fc58330c972a8cac307494e39811bb34396ab3839f6bd128"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tl_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-corner-tl-v2.png",
+                       "size":  9246,
+                       "sha256":  "4b4c53a40c4fa926862c82a6c19d0cf3c2bce78262abc748aae5d00ca2a2894f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tr_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tr-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-corner-tr-v2.png",
+                       "size":  9988,
+                       "sha256":  "bb5e9540d0fc1f23dc06858936574c2f5418ddfeeff16fedebeda489db5e70a0"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_favicon_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-favicon-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-game-favicon-v1.png",
+                       "size":  4744,
+                       "sha256":  "e53ceb986b005d4e3326c55bcce1166d9f40dd2c29fd8e3e46d53cc9fc53a05a"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_lockup_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-lockup-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-game-lockup-v1.png",
+                       "size":  151331,
+                       "sha256":  "6f398804b8ece3a9298999200fff04a634db366df0a931df449913950c025dc2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_panel_bg_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-panel-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-real-panel-bg-v1.png",
+                       "size":  960528,
+                       "sha256":  "0f2a7a7b26e06044586b05f5219af49d7272cc46e998de893f60d86be3f46ee2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_sidebar_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-sidebar-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-real-sidebar-v1.png",
+                       "size":  1927124,
+                       "sha256":  "9e481f5c2d78704542562b7338759d103008de7927affbd207524c8bd2e6e981"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_site_bg_v1",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-site-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-real-site-bg-v1.png",
+                       "size":  1810165,
+                       "sha256":  "c72aaf9afbe68c8e046aa548d1be3aaa427a35fa4ccdaf022b8c1a8d4ee011a6"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_topbar_bg_v2",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-topbar-bg-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix-web-asset-phoenix-topbar-bg-v2.png",
+                       "size":  861448,
+                       "sha256":  "a449296d5b5f6bc9228aab9db1077eac63b507d254705d1f594309b4a43327c0"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.226",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/PhoenixBaseUpgrade.dll",
+                       "size":  6351872,
+                       "sha256":  "178c3a157118536d6ef96614f6ad4a7fa9ef2d581b0395953a39014f57ecdd47"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.226",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/baseupgrade_payment_runtime.lua",
+                       "size":  49673,
+                       "sha256":  "5c3882439bd076f80f1040b1bd99d73858f77621dfe7da1820a8b712c567ce13"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.226",
+                       "version_epoch":  1,
+                       "release_sequence":  227,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/baseupgrade_module.json",
+                       "size":  1326,
+                       "sha256":  "93269d6a1a8be87ac30a1ea1b17a064f8fea4df8de5e30a6a1c80fa8513cc8c4"
+                   },
+                   {
+                       "id":  "respawn",
+                       "version":  "1.0.013",
+                       "version_epoch":  1,
+                       "release_sequence":  13,
+                       "required":  true,
+                       "target":  "modules/Respawn/bin/PhoenixRespawn.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/PhoenixRespawn.dll",
+                       "size":  3273216,
+                       "sha256":  "d09538841e14f80608cc0e9309296b2976ba389da783d277c06eab9af46f562c"
+                   },
+                   {
+                       "id":  "respawn_manifest",
+                       "version":  "1.0.013",
+                       "version_epoch":  1,
+                       "release_sequence":  13,
+                       "required":  true,
+                       "target":  "modules/Respawn/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/respawn_module.json",
+                       "size":  1412,
+                       "sha256":  "f86578036835a1e7e3bf7e5f66f69fa5813d9965f1e0f76093e32f565ef5bffc"
+                   },
+                   {
+                       "id":  "taxi",
+                       "version":  "1.0.030",
+                       "version_epoch":  1,
+                       "release_sequence":  30,
+                       "required":  true,
+                       "target":  "modules/Taxi/bin/PhoenixTaxi.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/PhoenixTaxi.dll",
+                       "size":  190464,
+                       "sha256":  "bc8ec60d983c6809b80738d946ed0cba3bdf9f5b27872497780fd9891f258568"
+                   },
+                   {
+                       "id":  "taxi_manifest",
+                       "version":  "1.0.030",
+                       "version_epoch":  1,
+                       "release_sequence":  30,
+                       "required":  true,
+                       "target":  "modules/Taxi/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/taxi_module.json",
+                       "size":  1174,
+                       "sha256":  "cd93e3659ea8d23f08809e419080abff8efd65cba90e88512d95d42da3da9712"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.235",
+                       "version_epoch":  1,
+                       "release_sequence":  240,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.235-r240-phx-20260826-respawn-corrective-v1-001/phoenix_manifest.json",
+                       "size":  2159,
+                       "sha256":  "7ef8ff1420ece30e092217f06b88d229851b3082daa059d8d5f714f925258229"
+                   }
+               ],
+    "base_upgrade_version":  "1.0.226"
+}
