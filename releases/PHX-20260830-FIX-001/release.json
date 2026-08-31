@@ -1,0 +1,322 @@
+{
+    "schema":  1,
+    "build_id":  "PHX-20260830-FIX-001",
+    "core_version":  "0.1.260",
+    "module_count":  3,
+    "modules":  [
+                    {
+                        "id":  "base_upgrade",
+                        "identity_key":  "base_upgrade",
+                        "version_epoch":  1,
+                        "version":  "1.0.251",
+                        "release_sequence":  252,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.000",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "BASEUPGRADE_B4_CORE_WIDE_IDLE_TRANSPORT_20260728"
+                    },
+                    {
+                        "id":  "respawn",
+                        "identity_key":  "respawn",
+                        "version_epoch":  1,
+                        "version":  "1.0.038",
+                        "release_sequence":  38,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.222",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "RESPAWN_SCUM_REGISTRY_DISCORD_V1"
+                    },
+                    {
+                        "id":  "taxi",
+                        "identity_key":  "taxi",
+                        "version_epoch":  1,
+                        "version":  "1.0.055",
+                        "release_sequence":  55,
+                        "module_api":  1,
+                        "requires_core_min":  "0.1.205",
+                        "requires_core_max":  "0.1.999",
+                        "native_binding_id":  "TAXI_CORE_PLAYER_EXECUTION_ECONOMY_V1"
+                    }
+                ],
+    "tag":  "phx-0.1.260-r265-fix",
+    "title":  "Phoenix fix",
+    "published_at_utc":  "2026-08-30T18:59:55.5229933Z",
+    "assets":  [
+                   {
+                       "id":  "phoenix_core",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "bin/core/PhoenixCore.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/PhoenixCore.dll",
+                       "size":  2098176,
+                       "sha256":  "ae6254501cdfde26482591cf2efa4e8d79b5e3e98057a24ff2bf146dc829645c"
+                   },
+                   {
+                       "id":  "phoenix_web_css",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/app.css",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-app.css",
+                       "size":  172688,
+                       "sha256":  "8d37bb2752b4b732795fdb7df4459e3bda4d9532e0d23a60de5c106c8cb8fe1d"
+                   },
+                   {
+                       "id":  "phoenix_web_js",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/app.js",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-app.js",
+                       "size":  179108,
+                       "sha256":  "080a16ff0b78e66bd5453e1e2fbbfb6a2ea10f92d3ecc157792d67b2103242c3"
+                   },
+                   {
+                       "id":  "phoenix_web_index",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/index.html",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-index.html",
+                       "size":  82083,
+                       "sha256":  "16dae7136205587d22dc16e7adeee45182e8e6789e12e5000042460cf29b7c1f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_account_medallion_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-account-medallion-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-account-medallion-v1.png",
+                       "size":  359272,
+                       "sha256":  "bd1838ee6a8baefebe8847aed1600b7476b046bb09749632e4cda783260f397f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_brand_head_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-brand-head-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-brand-head-v2.png",
+                       "size":  161952,
+                       "sha256":  "59b31be692fb22f67dc653444ef94d0149314fb1f8dfaf2eca8b08701a06cc19"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_core_wordmark_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-core-wordmark-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-core-wordmark-v2.png",
+                       "size":  46546,
+                       "sha256":  "08d4aa1aeb4ee09008de2be9d37a058b3c660fd46751beebc220bc51bffd2ba5"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_bl_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-bl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-corner-bl-v2.png",
+                       "size":  9983,
+                       "sha256":  "5649d708547cb37bb9b4fe2a4c541884565a562506ec2041d4d2902377362299"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_br_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-br-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-corner-br-v2.png",
+                       "size":  9975,
+                       "sha256":  "f8e3a4279dc1bd23fc58330c972a8cac307494e39811bb34396ab3839f6bd128"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tl_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tl-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-corner-tl-v2.png",
+                       "size":  9246,
+                       "sha256":  "4b4c53a40c4fa926862c82a6c19d0cf3c2bce78262abc748aae5d00ca2a2894f"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_corner_tr_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-corner-tr-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-corner-tr-v2.png",
+                       "size":  9988,
+                       "sha256":  "bb5e9540d0fc1f23dc06858936574c2f5418ddfeeff16fedebeda489db5e70a0"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_favicon_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-favicon-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-game-favicon-v1.png",
+                       "size":  4744,
+                       "sha256":  "e53ceb986b005d4e3326c55bcce1166d9f40dd2c29fd8e3e46d53cc9fc53a05a"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_game_lockup_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-game-lockup-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-game-lockup-v1.png",
+                       "size":  151331,
+                       "sha256":  "6f398804b8ece3a9298999200fff04a634db366df0a931df449913950c025dc2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_panel_bg_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-panel-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-real-panel-bg-v1.png",
+                       "size":  960528,
+                       "sha256":  "0f2a7a7b26e06044586b05f5219af49d7272cc46e998de893f60d86be3f46ee2"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_sidebar_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-sidebar-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-real-sidebar-v1.png",
+                       "size":  1927124,
+                       "sha256":  "9e481f5c2d78704542562b7338759d103008de7927affbd207524c8bd2e6e981"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_real_site_bg_v1",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-real-site-bg-v1.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-real-site-bg-v1.png",
+                       "size":  1810165,
+                       "sha256":  "c72aaf9afbe68c8e046aa548d1be3aaa427a35fa4ccdaf022b8c1a8d4ee011a6"
+                   },
+                   {
+                       "id":  "phoenix_web_asset_phoenix_topbar_bg_v2",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "web/admin/assets/phoenix-topbar-bg-v2.png",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix-web-asset-phoenix-topbar-bg-v2.png",
+                       "size":  861448,
+                       "sha256":  "a449296d5b5f6bc9228aab9db1077eac63b507d254705d1f594309b4a43327c0"
+                   },
+                   {
+                       "id":  "base_upgrade",
+                       "version":  "1.0.251",
+                       "version_epoch":  1,
+                       "release_sequence":  252,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/bin/PhoenixBaseUpgrade.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/PhoenixBaseUpgrade.dll",
+                       "size":  6363648,
+                       "sha256":  "6794bc5b96ef5445a8b1bde2acd2b48e1325be4d0ea75e70aa4d3dfa240a6c50"
+                   },
+                   {
+                       "id":  "base_upgrade_lua",
+                       "version":  "1.0.251",
+                       "version_epoch":  1,
+                       "release_sequence":  252,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/lua/baseupgrade_payment_runtime.lua",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/baseupgrade_payment_runtime.lua",
+                       "size":  49673,
+                       "sha256":  "5c3882439bd076f80f1040b1bd99d73858f77621dfe7da1820a8b712c567ce13"
+                   },
+                   {
+                       "id":  "base_upgrade_manifest",
+                       "version":  "1.0.251",
+                       "version_epoch":  1,
+                       "release_sequence":  252,
+                       "required":  true,
+                       "target":  "modules/BaseUpgrade/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/baseupgrade_module.json",
+                       "size":  1292,
+                       "sha256":  "00871b7d107f0df47dd63a4ba688af6083e77be61acbfcc971bc823ad67a2ef0"
+                   },
+                   {
+                       "id":  "respawn",
+                       "version":  "1.0.038",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "modules/Respawn/bin/PhoenixRespawn.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/PhoenixRespawn.dll",
+                       "size":  3293696,
+                       "sha256":  "1cf8d39f50e55ebc90a9d8fcf3641127b03612459a969b82c7d3360e3e7e2620"
+                   },
+                   {
+                       "id":  "respawn_manifest",
+                       "version":  "1.0.038",
+                       "version_epoch":  1,
+                       "release_sequence":  38,
+                       "required":  true,
+                       "target":  "modules/Respawn/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/respawn_module.json",
+                       "size":  1378,
+                       "sha256":  "d084bfd2676c2629b1687f35bca3a09a9beca6e2032560af2dbbb7666216f26e"
+                   },
+                   {
+                       "id":  "taxi",
+                       "version":  "1.0.055",
+                       "version_epoch":  1,
+                       "release_sequence":  55,
+                       "required":  true,
+                       "target":  "modules/Taxi/bin/PhoenixTaxi.dll",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/PhoenixTaxi.dll",
+                       "size":  190464,
+                       "sha256":  "356e9609dc3bcd6fcc9363d9c183984cc85c0c5f765d7026290292b92993498e"
+                   },
+                   {
+                       "id":  "taxi_manifest",
+                       "version":  "1.0.055",
+                       "version_epoch":  1,
+                       "release_sequence":  55,
+                       "required":  true,
+                       "target":  "modules/Taxi/module.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/taxi_module.json",
+                       "size":  1140,
+                       "sha256":  "7f0cc06bfeff30649a79452936d0a8bb702f6d975763167ac53f8d99694f8b77"
+                   },
+                   {
+                       "id":  "phoenix_manifest",
+                       "version":  "0.1.260",
+                       "version_epoch":  1,
+                       "release_sequence":  265,
+                       "required":  true,
+                       "target":  "phoenix_manifest.json",
+                       "url":  "https://github.com/sparkkvork-alt/Phoenix-Updates/releases/download/phx-0.1.260-r265-fix/phoenix_manifest.json",
+                       "size":  2125,
+                       "sha256":  "eab0025a9f3ae0e7a52e2c2168efeec1127a0c0dced9cfb472a00bbd482dce78"
+                   }
+               ],
+    "base_upgrade_version":  "1.0.251"
+}
